@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="../estilos/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@100;200;300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <section class="containerNav">
+            <nav class="navbar">
+                <ul class="navLinks">
+                    <li><a href="../index.html">INICIO</a></li>
+                    <li><a href="../paginas/pets.html">MASCOTAS</a></li>
+                    <li><a href="../paginas/about.html">ACERCA DE</a></li>
+                    <li><a href="../paginas/contact.html">CONTACTO</a></li>
+                    <li><a href="../paginas/requirements.html">REQUISITOS</a></li>
+                    <li><a href="../paginas/donate.html">DONAR</a></li>
+                </ul>
+            </nav>
+        </section>
+
+        <section>
+            <img class="imagenEncabezado" src="../imagenes/header/contact.png" alt="Logo de Contacto">
+            <h1>SOBRE NOSOTROS</h1>
+        </section>
+
+        <section class="redesSociales">
+            <a href="https://www.facebook.com/tu-pagina" target="_blank" class="iconoFacebook"></a>
+            <a href="https://www.twitter.com/tu-pagina" target="_blank" class="iconoX"></a>
+            <a href="https://www.instagram.com/tu-pagina" target="_blank" class="iconoInstagram"></a>
+        </section>
+    </header>
+
+    <main>
+        <section class="contact">
+            <div class="container">
+                <h2>¡Contáctanos!</h2>
+                <p>Si tienes alguna pregunta o deseas más información, por favor completa el siguiente formulario y nos
+                    pondremos en contacto contigo a la brevedad posible.</p>
+                <br>
+                <form action="#" method="post">
+                    <div class="gridContainer">
+                        <div>
+                            <label for="nombre" class="label">Nombre:</label>
+                            <input type="text" id="nombre" name="nombre" required>
+                        </div>
+
+                        <div>
+                            <label for="apellido" class="label">Apellido:</label>
+                            <input type="text" id="apellido" name="apellido" required>
+                        </div>
+
+                        <div>
+                            <label for="email" class="label">Email:</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+
+                        <div>
+                            <label for="motivo" class="label">Motivo de Contacto:</label>
+                            <select id="motivo" name="motivo">
+                                <option value="Adoptar Mascota">Adoptar Mascota</option>
+                                <option value="Donaciones">Donaciones</option>
+                                <option value="Unirme">Unirme al equipo de Mascotas Felices</option>
+                                <option value="Otro">Otro</option>
+                            </select>
+                        </div>
+
+                        <div class="message">
+                            <label for="mensaje" class="label">Mensaje:</label>
+                            <textarea id="mensaje" name="mensaje" rows="4"></textarea>
+                        </div>
+
+                        <div class="receiveInfo">
+                            <input type="checkbox" id="recibir-info" name="recibirInfo">
+                            <label for="recibir-info" class="label">Recibir más información</label>
+                        </div>
+
+                        <div class="submit">
+                            <button class="btn" type="submit">Enviar</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <section class="somosMiembros">
+            <h4>Somos miembros de</h4>
+            <ul>
+                <li><img src="../imagenes/footer/actitudAnimal.png" alt="Actitud Animal"></li>
+                <li><img src="../imagenes/footer/asociacionGatosDelBotanico.png" alt="Asociación Gatos del Botánico">
+                </li>
+            </ul>
+        </section>
+
+        <p>&copy; 2023 Mascotas Felices. Todos los derechos reservados.</p>
+    </footer>
+</body>
+
+</html>
