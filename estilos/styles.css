@@ -158,7 +158,6 @@ header p {
 }
 
 .btn {
-    display: inline-block;
     padding: 10px 20px;
     background-color: #ff6b6b;
     color: #ffffff;
@@ -231,6 +230,74 @@ select {
 
 input[type="checkbox"] {
     width: auto;
+}
+
+/* --Page Pets-- */
+#cats {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#dogs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    width: 300px;
+    margin: 10px;
+    padding: 20px;
+    background-color: #f5f5f5;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    color: #000
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.card h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.card p {
+    font-size: 14px;
+}
+
+.btnPets {
+    display: none;
+    padding: 10px 20px;
+    background-color: #ff6b6b;
+    color: #ffffff;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+    border: none;
+    text-align: center;
+}
+
+.card:hover .btnPets {
+    display: block;
+}
+
+.btnPets:hover {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    background-color: #ff4f4f;
+    color: #000;
+    font-weight: bold;
 }
 
 /* Footer */
