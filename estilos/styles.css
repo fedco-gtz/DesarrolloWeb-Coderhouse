@@ -364,6 +364,21 @@ input[type="checkbox"] {
     display: none;
 }
 
+/* --Page Donate-- */
+#carouselExample {
+    max-width: 800px; 
+    margin: 0 auto; 
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  position: absolute;
+  top: 50%;
+  z-index: 1;
+  width: 40px;
+  background-color: rgba(0, 0, 0, 0.5); 
+}
+
 /* Footer */
 /* --Estilos Generales del Footer-- */
 footer {
@@ -391,7 +406,3 @@ footer {
 }
 
 /* ----------------------------------------------------------------------------------- */
-
-.mapsDesktop {
-    display:block
-}
