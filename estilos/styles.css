@@ -336,7 +336,33 @@ input[type="checkbox"] {
 }
 
 /* --Page Requirements-- */
+#donations {
+    background-color: lightgray;
+    padding: 40px;
+}
 
+.ask {
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.questionTitle {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.questionAnswer {
+    display: none;
+}
+
+.ask:hover .questionAnswer {
+    display: block;
+}
+
+.mapsMobile {
+    display: none;
+}
 
 /* Footer */
 /* --Estilos Generales del Footer-- */
@@ -365,3 +391,7 @@ footer {
 }
 
 /* ----------------------------------------------------------------------------------- */
+
+.mapsDesktop {
+    display:block
+}
