@@ -1,0 +1,26 @@
+/* Esconder checkbox */
+.hidden {
+    display: none;
+  }
+  
+  /* Estilo del botón */
+  .buttonMenuToggle {
+    cursor: pointer;
+    padding: 8px 16px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  /* Estilo del menú */
+  .menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: none;
+  }
+  
+  /* Mostrar el menú cuando el checkbox esté marcado */
+  #menu-toggle:checked + .menu {
+    display: block;
+  }

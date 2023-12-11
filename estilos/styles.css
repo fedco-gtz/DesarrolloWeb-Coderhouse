@@ -112,6 +112,10 @@ header p {
     align-items: center;
 }
 
+.menu {
+    display: none;
+}
+
 .buttonMenuToggle {
     display: none;
 }
@@ -509,7 +513,7 @@ footer {
         font-weight: bold;
     }
 
-    .buttonMenuToggle {
+    .button-menu-toggle {
         display: block;
         background-color: white;
         border: none;
