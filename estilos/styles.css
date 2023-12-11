@@ -445,6 +445,7 @@ footer {
         justify-content: space-between;
         max-width: 600px;
         margin: 0 auto;
+        margin-right: 60px;
         padding: 0;
         list-style: none;
     }
@@ -489,4 +490,3 @@ footer {
         grid-column: 1;
     }
 }
-
