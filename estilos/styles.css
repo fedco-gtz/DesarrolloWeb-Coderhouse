@@ -429,7 +429,7 @@ footer {
 
 /* ----------------------------------------------------------------------------------- */
 /* Media queries*/
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 425px) and (max-width: 768px) {
 
     /* Header */
     /* ---Estilos Generales del Header--- */
@@ -525,7 +525,6 @@ footer {
         height: 75% !important;
     }
 
-    /* --Barra de Navegación-- */
     /* --Barra de Navegación-- */
     .navLinks a {
         display: none;
