@@ -1,5 +1,5 @@
 // Menú Responsivo
-document.querySelector("button.buttonMenuToggle")
+document.querySelector("button .buttonMenuToggle")
     .addEventListener("click", function() {
            document.querySelector(".navLinks").
-                      classList.toggle("navLinksResponsive")})
+                      classList.toggle(".navLinksResponsive")})
