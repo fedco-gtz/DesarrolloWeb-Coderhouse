@@ -8,7 +8,7 @@
 /* Header */
 /* ---Estilos Generales del Header--- */
 header {
-    background-image: url(../imagenes/fondo.jpg);
+    background-image: url(../images/fondo.jpg);
     text-align: center;
     padding: auto;
     padding-bottom: 20px;
@@ -42,16 +42,16 @@ header p {
 }
 
 .iconoFacebook {
-    background-image: url('../imagenes/header/facebook.png');
+    background-image: url('../images/header/facebook.png');
 }
 
 .iconoX {
-    background-image: url('../imagenes/header/x.png');
+    background-image: url('../images/header/x.png');
 
 }
 
 .iconoInstagram {
-    background-image: url('../imagenes/header/instagram.png');
+    background-image: url('../images/header/instagram.png');
 }
 
 /* --Barra de Navegación-- */
