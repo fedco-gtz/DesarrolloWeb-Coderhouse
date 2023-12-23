@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <!-- <link rel="stylesheet" href="../css/styles.css"> -->
+    <link rel="stylesheet" href="../../css/styles1.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@100;200;300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <section class="containerNav">
+                    <nav class="navbar">
+                        <ul class="navLinks">
+                            <li><a href="../../index.html">ESPANHOL</a></li>
+                            <li><a href="./indexportuguese.html">COMEÇAR</a></li>
+                            <li><a href="./pages/pets.html">ANIMAIS DE ESTIMAÇÃO</a></li>
+                            <li><a href="./pages/about.html">SOBRE</a></li>
+                            <li><a href="./pages/contact.html">CONTATO</a></li>
+                            <li><a href="./pages/requirements.html">REQUISITOS</a></li>
+                        </ul>
+                        <ul class="navLinks navLinksMobile">
+                            <li><a href="./pages/donate.html">DOAR</a></li>
+                        </ul>
+                    </nav>
+                    <button class="buttonMenuToggle">&#9776</button>
+                </section>
+            </ul>
+        </nav>
+
+        <section>
+            <img class="imagenEncabezado" src="../../images/header/contact.png" alt="Logotipo de contato">
+            <h1>CONTATO</h1>
+        </section>
+
+        <section class="redesSociales">
+            <a href="https://www.facebook.com/tu-pagina" target="_blank" class="iconoFacebook"></a>
+            <a href="https://www.twitter.com/tu-pagina" target="_blank" class="iconoX"></a>
+            <a href="https://www.instagram.com/tu-pagina" target="_blank" class="iconoInstagram"></a>
+        </section>
+    </header>
+
+    <main>
+        <section class="contact">
+            <div class="container">
+                <h2>¡Contate-nos!</h2>
+                <p>Se você tiver alguma dúvida ou quiser mais informações, preencha o seguinte formulário e informe-nos.
+                    Entraremos em contato com você o mais breve possível.</p>
+                <br>
+                <form action="#" method="post">
+                    <div class="gridContainer">
+                        <div>
+                            <label for="nombre" class="label">
+                                Nome:</label>
+                            <input type="text" id="nombre" name="nombre" required>
+                        </div>
+
+                        <div>
+                            <label for="apellido" class="label">Sobrenome:</label>
+                            <input type="text" id="apellido" name="apellido" required>
+                        </div>
+
+                        <div>
+                            <label for="email" class="label">E-mail:</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+
+                        <div>
+                            <label for="motivo" class="label">Razão para contato:</label>
+                            <select id="motivo" name="motivo">
+                                <option value="Adoptar Mascota">Adote animal de estimação</option>
+                                <option value="Donaciones">Doações</option>
+                                <option value="Unirme">Faça parte da equipe da animais de estimação felizes</option>
+                                <option value="Otro">Outro</option>
+                            </select>
+                        </div>
+
+                        <div class="message">
+                            <label for="mensaje" class="label">Mensagem:</label>
+                            <textarea id="mensaje" name="mensaje" rows="4"></textarea>
+                        </div>
+
+                        <div class="receiveInfo">
+                            <input type="checkbox" id="recibir-info" name="recibirInfo">
+                            <label for="recibir-info" class="label">Receba mais informações</label>
+                        </div>
+
+                        <div class="submit">
+                            <button class="btn" type="submit">Enviar</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <section class="somosMiembros">
+            <h4>Somos membros de</h4>
+            <ul>
+                <li><img src="../../images/footer/brazilianExperience.png" alt="Brazilian Experience"></li>
+                </li>
+            </ul>
+        </section>
+
+        <p>&copy; 2023 animais de estimação felizes. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="../../js/navbar.js"></script>
+</body>
+</html>
