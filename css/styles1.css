@@ -120,7 +120,7 @@ a {
   font-weight: bold;
 }
 
-.buttonLanguage {
+.buttonLanguage a img {
   display: inline-block;
   width: 10px;
   height: 10px;

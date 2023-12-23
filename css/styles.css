@@ -26,13 +26,12 @@ header p {
     margin-bottom: 10px;
 }
 
-.buttonLanguage {
+.buttonLanguage a img {
     display: inline-block;
-    width: 10px;
-    height: 10px;
     background-repeat: no-repeat;
     background-size: cover;
-    margin-left: -20px;
+    padding: 0px;
+    margin-left: -5px;
     margin-top: -10px;
 }
 

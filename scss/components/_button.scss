@@ -42,11 +42,18 @@
 }
 
 .buttonLanguage {
-    display: inline-block;
-    width: 10px;
-    height: 10px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin-left: -20px;
-    margin-top: -10px;
+
+    a {
+        img {
+
+            display: inline-block;
+            width: 10px;
+            height: 10px;
+            background-repeat: no-repeat;
+            background-size: cover;
+            margin-left: -20px;
+            margin-top: -10px;
+
+        }
+    }
 }
