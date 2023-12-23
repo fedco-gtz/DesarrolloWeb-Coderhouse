@@ -1,87 +1,72 @@
 @media screen and (max-width: 768px) {
-    header {
-        h1 {
-            font-size: 24px;
-        }
+	header {
+		h1 {
+			font-size: 24px;
+		}
 
-        p {
-            font-size: 18px;
-            color: $color_1;
-            margin-bottom: 10px;
-        }
-    }
+		p {
+			font-size: 18px;
+			color: $color_1;
+			margin-bottom: 10px;
+		}
+	}
 
-    .imagenEncabezado {
-        width: 50% !important;
-        height: 50% !important;
-    }
+	.imagenEncabezado {
+		width: 50% !important;
+		height: 50% !important;
+	}
 
-    .containerNav {
-        .navbar {
-            .navLinks {
-                display: none;
-            }
-        }
-    }
+	.column {
+		flex: 100%;
+	}
 
-    .navLinksResponsive {
-        display: flex;
-        align-items: center;
-        margin-top: 20px;
-    }
+	.navLinks {
+		display: none;
+	}
 
-    .buttonMenuToggle {
-        display: block;
-        background-color: $background-color_10;
-        border: none;
-        border-radius: 50px;
-        padding: 0 24px;
-        font-family: $font-family_2;
-        font-weight: bold;
-        font-size: 20px;
-        z-index: 1;
-    }
+	.navLinksMobile {
+		display: flex;
+		align-items: center;
+	}
 
-    .navbar {
-        .navLinks {
-            flex-wrap: wrap;
-            justify-content: center;
-        }
+	.buttonMenuToggle {
+		display: block;
+		background-color: $background-color_10;
+		border: none;
+		border-radius: 50px;
+		padding: 0 24px;
+		font-family: $font-family_2;
+		font-weight: bold;
+		font-size: 20px;
+	}
 
-        li {
-            margin-bottom: 10px;
-        }
-    }
+	.navLinks.navLinksResponsive {
+		position: absolute;
+		display: flex;
+		background-color: $background-color_11;
+		width: 100%;
+		height: 130%;
+		top: 70px;
+		left: 0;
+		flex-direction: column !important;
+		padding-top: 70px;
+		align-items: center;
+		gap: 70px;
+		font-size: 30px;
+	}
 
-    .navLinks {
-        .navLinksResponsive {
-            position: absolute;
-            display: flex;
-            background-color: $background-color_11;
-            width: 100%;
-            height: 100%;
-            top: 70px;
-            left: 0;
-            flex-direction: column !important;
-            padding-top: 70px;
-            align-items: center;
-            gap: 70px;
-            font-size: 40px;
-        }
-    }
+	.gridContainer {
+		grid-template-columns: repeat(2, 1fr);
+		grid-gap: 25px;
+		grid-template-columns: 1fr;
+		grid-gap: 20px;
+	}
 
-    .gridContainer {
-        grid-template-columns: repeat(2, 1fr);
-        grid-gap: 25px;
-        grid-template-columns: 1fr;
-        grid-gap: 20px;
-    }
+	.message {
+		grid-column: 1;
+	}
 
-    .message {
-        grid-column: 1;
-    }
-
-    .submit {
-        grid-column: 1;
-    }
+	.submit {
+		grid-column: 1;
+	}
 }

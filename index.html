@@ -15,21 +15,25 @@
 
 <body>
     <header>
-        <section class="containerNav">
-            <nav class="navbar">
-                <ul class="navLinks">
-                    <li><a href="./index.html">INICIO</a></li>
-                    <li><a href="./pages/pets.html">MASCOTAS</a></li>
-                    <li><a href="./pages/about.html">ACERCA DE</a></li>
-                    <li><a href="./pages/contact.html">CONTACTO</a></li>
-                    <li><a href="./pages/requirements.html">REQUISITOS</a></li>
-                </ul>
-                <ul class="navLinksResponsive">
-                    <li><a href="./pages/donate.html">DONAR</a></li>
-                </ul>
-            </nav>
-            <button class="buttonMenuToggle">&#9776;</button>
-        </section>
+        <nav>
+            <ul>
+                <section class="containerNav">
+                    <nav class="navbar">
+                        <ul class="navLinks">
+                            <li><a href="./index.html">INICIO</a></li>
+                            <li><a href="./pages/pets.html">MASCOTAS</a></li>
+                            <li><a href="./pages/about.html">ACERCA DE</a></li>
+                            <li><a href="./pages/contact.html">CONTACTO</a></li>
+                            <li><a href="./pages/requirements.html">REQUISITOS</a></li>
+                        </ul>
+                        <ul class="navLinksMobile">
+                            <li><a href="./pages/donate.html">DONAR</a></li>
+                        </ul>
+                    </nav>
+                    <button class="buttonMenuToggle">&#9776</button>
+                </section>
+            </ul>
+        </nav>
 
         <section>
             <img class="imagenEncabezado" src="./images/header/logo.png" alt="Logo Mascotas Felices">
@@ -100,6 +104,7 @@
         <p>&copy; 2023 Mascotas Felices. Todos los derechos reservados.</p>
     </footer>
 
-    <script src="./js/navbar.js"></script>
+    <script src="./js/navbar.js" defer></script>
 </body>
+
 </html>

@@ -4,7 +4,7 @@
 
 .btn {
     padding: 10px 20px;
-    background-color: $background-color_7;
+    background-color: $background-color_6;
     color: $color_1;
     font-weight: bold;
     text-decoration: none;
@@ -13,8 +13,8 @@
     border: none;
 
     &:hover {
-        background-color: $background-color_8;
-        color: $color_2;
+        background-color: $background-color_7;
+        color: $color_3;
         font-weight: bold;
     }
 }
@@ -22,7 +22,7 @@
 .btnPets {
     display: none;
     padding: 10px 20px;
-    background-color: $background-color_7;
+    background-color: $background-color_6;
     color: $color_1;
     font-weight: bold;
     text-decoration: none;
@@ -35,8 +35,8 @@
         display: flex;
         text-align: center;
         justify-content: center;
-        background-color: $background-color_8;
-        color: $color_2;
+        background-color: $background-color_7;
+        color: $color_3;
         font-weight: bold;
     }
 }

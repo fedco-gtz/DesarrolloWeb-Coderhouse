@@ -1,94 +1,78 @@
 .containerNav {
-    display: flex;
-    padding: 10px;
-    height: 50px;
-    background-color: $background-color_1;
+	display: flex;
+	padding: 10px;
+	height: 50px;
+	background-color: $background-color_1;
+}
 
-    .navbar {
-        background-color: $background-color_2;
-        width: 100%;
-        box-sizing: border-box;
-        padding: 10px;
-        font-weight: bold;
-        display: flex;
-        justify-content: center;
-
-        .navLinks {
-            list-style-type: none;
-            margin: 0;
-            padding: 0;
-            display: flex;
-            justify-content: space-evenly;
-            align-items: center;
-
-            li {
-                display: inline-block;
-                margin-left: 5px;
-                margin-right: 5px;
-            }
-        }
-
-        .navLinksResponsive {
-            list-style-type: none;
-            margin: 0;
-            padding: 0;
-            display: flex;
-            justify-content: space-evenly;
-            align-items: center;
-
-            li {
-                display: inline-block;
-                margin-left: 5px;
-                margin-right: 5px;
-            }
-        }
-    }
+.navbar {
+	display: flex;
+	justify-content: center;
+	width: 100%;
 }
 
 .navLinks {
-    >a {
-        padding: 8px 24px;
-    }
+	display: flex;
+	align-items: center;
 
-    a {
-        display: block;
-        border: #ffffff solid 2px;
-        border-radius: 20px;
-        padding: 7px;
-        color: $color_1;
-        text-decoration: none;
+	a {
+		display: block;
+		border: #ffffff solid 2px;
+		border-radius: 20px;
+		padding: 7px;
+		color: $color_1;
+		text-decoration: none;
+		font-weight: bold;
 
-        &:hover {
-            background-color: $background-color_3;
-            border-radius: 20px;
-            padding-left: 10px;
-            padding-right: 10px;
-            color: $color_1;
-            font-weight: bold;
-        }
-    }
+		&:hover {
+			background-color: $background-color_2;
+			border-radius: 20px;
+			padding-left: 10px;
+			padding-right: 10px;
+			color: $color_1;
+			font-weight: bold;
+		}
+	}
 }
 
-.navLinksResponsive {
-    >a {
-        padding: 8px 24px;
-    }
+.navLinksMobile {
+	display: flex;
+	align-items: center;
 
-    a {
-        display: block;
-        border: #ffffff solid 2px;
-        border-radius: 20px;
-        padding: 7px;
-        color: $color_1;
-        text-decoration: none;
+	a {
+		display: block;
+		border: #ffffff solid 2px;
+		border-radius: 20px;
+		padding: 7px;
+		color: $color_1;
+		text-decoration: none;
+		font-weight: bold;
 
-        &:hover {
-            background-color: $background-color_3;
-            border-radius: 20px;
-            padding-left: 10px;
-            padding-right: 10px;
-            color: $color_1;
-            font-weight: bold;
-        }
-    }
+		&:hover {
+			background-color: $background-color_2;
+			border-radius: 20px;
+			padding-left: 10px;
+			padding-right: 10px;
+			color: $color_1;
+			font-weight: bold;
+		}
+	}
+}
+
+.buttonMenuToggle {
+	display: none;
+}
+
+li {
+	list-style-type: none;
+
+	>a {
+		padding: 8px 24px;
+	}
+}
+
+a {
+	color: $color_2;
+	text-decoration: none;
+	margin: 10px;
 }
