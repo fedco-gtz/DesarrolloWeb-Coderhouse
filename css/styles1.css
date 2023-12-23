@@ -120,6 +120,16 @@ a {
   font-weight: bold;
 }
 
+.buttonLanguage {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-left: -20px;
+  margin-top: -10px;
+}
+
 .petCard {
   background-color: #ffffff;
   border-radius: 8px;

@@ -26,6 +26,16 @@ header p {
     margin-bottom: 10px;
 }
 
+.buttonLanguage {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: -20px;
+    margin-top: -10px;
+}
+
 /* ---Portada--- */
 .imagenEncabezado {
     width: 20%;
