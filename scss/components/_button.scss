@@ -1,0 +1,42 @@
+.buttonMenuToggle {
+    display: none;
+}
+
+.btn {
+    padding: 10px 20px;
+    background-color: $background-color_7;
+    color: $color_1;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+    border: none;
+
+    &:hover {
+        background-color: $background-color_8;
+        color: $color_2;
+        font-weight: bold;
+    }
+}
+
+.btnPets {
+    display: none;
+    padding: 10px 20px;
+    background-color: $background-color_7;
+    color: $color_1;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+    border: none;
+    text-align: center;
+
+    &:hover {
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        background-color: $background-color_8;
+        color: $color_2;
+        font-weight: bold;
+    }
+}

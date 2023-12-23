@@ -1,0 +1,25 @@
+footer {
+    background-color: $background-color_2;
+    padding: 20px;
+    text-align: center;
+    color: $color_2;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.somosMiembros {
+    text-align: center;
+
+    h4 {
+        margin-bottom: 10px;
+    }
+
+    ul {
+        li {
+            list-style-type: none;
+            padding: 0;
+            display: inline-block;
+            margin: 0 10px;
+        }
+    }
+}

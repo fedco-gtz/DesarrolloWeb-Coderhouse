@@ -1,0 +1,20 @@
+#carouselExample {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.carousel-control-prev {
+    position: absolute;
+    top: 50%;
+    z-index: 1;
+    width: 40px;
+    background-color: $background-color_9;
+}
+
+.carousel-control-next {
+    position: absolute;
+    top: 50%;
+    z-index: 1;
+    width: 40px;
+    background-color: $background-color_9;
+}

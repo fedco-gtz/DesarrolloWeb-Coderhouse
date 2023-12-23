@@ -1,0 +1,24 @@
+.ask {
+    margin-bottom: 20px;
+    cursor: pointer;
+
+    &:hover {
+        .questionAnswer {
+            display: block;
+        }
+    }
+}
+
+.questionTitle {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.questionAnswer {
+    display: none;
+}
+
+.mapsMobile {
+    display: none;
+}

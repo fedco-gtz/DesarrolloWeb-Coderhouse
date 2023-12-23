@@ -1,0 +1,18 @@
+.contact {
+    .container {
+        background-color: $background-color_4;
+        padding: 40px;
+
+        h2 {
+            font-size: 24px;
+            color: $color_2;
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-size: 16px;
+            color: $color_3;
+            line-height: 1.5;
+        }
+    }
+}

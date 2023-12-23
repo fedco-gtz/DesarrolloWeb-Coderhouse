@@ -1,0 +1,46 @@
+header {
+    background-image: url(../images/fondo.jpg);
+    text-align: center;
+    padding: auto;
+    padding-bottom: 20px;
+
+    h1 {
+        font-size: 32px;
+        color: $color_1;
+        margin-bottom: 10px;
+    }
+
+    p {
+        font-size: 24px;
+        color: $color_1;
+        margin-bottom: 10px;
+    }
+}
+
+.imagenEncabezado {
+    width: 20%;
+    height: 20%;
+}
+
+.redesSociales {
+    a {
+        display: inline-block;
+        width: 30px;
+        height: 30px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-right: 10px;
+    }
+}
+
+.iconoFacebook {
+    background-image: url('../images/header/facebook.png');
+}
+
+.iconoX {
+    background-image: url('../images/header/x.png');
+}
+
+.iconoInstagram {
+    background-image: url('../images/header/instagram.png');
+}
