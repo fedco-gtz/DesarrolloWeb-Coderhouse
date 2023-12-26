@@ -388,18 +388,43 @@ input[type="checkbox"] {
 }
 
 /* --Page Donate-- */
-#carouselExample {
-    max-width: 800px;
-    margin: 0 auto;
+.popups {
+    text-align: center;
+    padding: 0 0 100px;
+    background-color: #fff;
 }
 
-.carousel-control-prev,
-.carousel-control-next {
-    position: absolute;
-    top: 50%;
-    z-index: 1;
-    width: 40px;
-    background-color: rgba(0, 0, 0, 0.5);
+.popups p {
+    font-weight: 300;
+}
+
+#hiddenPopups {
+    padding: 25px;
+    border-radius: 10px;
+}
+
+#hiddenPopups .title {
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    font-size: 25px;
+    font-style: bold;
+}
+
+#hiddenPopups ul {
+    list-style: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 15px;
+}
+
+#hiddenPopups ul li img {
+    width: 400px;
+}
+
+.show {
+    display: none;
 }
 
 /* Footer */
