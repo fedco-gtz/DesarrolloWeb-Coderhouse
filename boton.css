@@ -1,0 +1,52 @@
+
+.goTopContainer {
+    box-sizing: border-box;
+    size: 10px;
+    position: fixed;
+    bottom: 1rem;
+    right: 1rem;
+    width: 6.6rem;
+    height: 6.6rem;
+    z-index: 1;
+}
+ 
+.goTopButton {
+    width: 0rem;
+    height: 0rem;
+    background: blue;
+    color:#fff;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: 0.2s;
+    position: absolute;
+    top: 80%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+
+}
+ 
+.goTopButton i {
+    position: absolute;
+    font-size: 1.7rem;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    color: #fff;
+    transition: 0.2s;
+}
+ 
+.showGoTop {
+    z-index: 10;
+}
+ 
+.showGoTop .goTopButton {
+    animation: popup 0.3s ease-in-out;
+    width: 3.6rem;
+    height: 3.6rem;
+    z-index: 11;
+}
+ 
+.showGoTop i {
+    transform: translate(-50%, -50%) scale(1);
+}

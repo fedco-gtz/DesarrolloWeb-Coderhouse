@@ -69,4 +69,12 @@
 	.submit {
 		grid-column: 1;
 	}
+
+	.mapsDesktop {
+        display: none;
+    }
+
+    .mapsMobile {
+        display: block;
+    }
 }
