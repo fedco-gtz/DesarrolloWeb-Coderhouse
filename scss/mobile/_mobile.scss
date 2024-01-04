@@ -71,10 +71,28 @@
 	}
 
 	.mapsDesktop {
-        display: none;
-    }
+		display: none;
+	}
 
-    .mapsMobile {
-        display: block;
-    }
+	.mapsMobile {
+		display: block;
+	}
+
+	#hiddenPopups {
+		.title {
+			width: 100%;
+			font-size: 22px;
+			font-style: bold;
+		}
+
+		ul {
+			font-size: 14px;
+
+			li {
+				img {
+					width: 300px;
+				}
+			}
+		}
+	}
 }

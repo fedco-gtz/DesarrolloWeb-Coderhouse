@@ -566,6 +566,17 @@ footer {
   .mapsMobile {
     display: block;
   }
+  #hiddenPopups .title {
+    width: 100%;
+    font-size: 22px;
+    font-style: bold;
+  }
+  #hiddenPopups ul {
+    font-size: 14px;
+  }
+  #hiddenPopups ul li img {
+    width: 300px;
+  }
 }
 
 /*# sourceMappingURL=styles1.css.map */
