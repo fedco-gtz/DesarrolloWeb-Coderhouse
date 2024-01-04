@@ -566,6 +566,9 @@ footer {
   .mapsMobile {
     display: block;
   }
+  #hiddenPopups {
+    padding: 15px;
+  }
   #hiddenPopups .title {
     width: 100%;
     font-size: 22px;
@@ -575,7 +578,7 @@ footer {
     font-size: 14px;
   }
   #hiddenPopups ul li img {
-    width: 300px;
+    width: 200px;
   }
 }
 
