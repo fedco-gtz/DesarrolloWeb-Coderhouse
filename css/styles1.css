@@ -230,6 +230,30 @@ a {
   font-size: 14px;
 }
 
+.cardContainerDonation {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.cardContainerDonation .cardDonation {
+  flex: 0 0 calc(50% - 40px);
+  background-color: rgb(5, 121, 182);
+  margin: 10px;
+  padding: 20px;
+  border: 2px solid rgba(20, 20, 20, 0.95);
+  border-radius: 20px;
+  box-sizing: border-box;
+}
+.cardContainerDonation .cardDonation .descriptionDonation,
+.cardContainerDonation .cardDonation .amount {
+  text-align: center;
+  color: #ffffff;
+}
+.cardContainerDonation .cardDonation #totalDonaciones,
+.cardContainerDonation .cardDonation #ultimaDonacion {
+  font-size: 50px;
+}
+
 .gridContainer {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -328,6 +352,36 @@ input[type=checkbox] {
   display: none;
 }
 
+.popupContainerLanguaje {
+  display: none;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(20, 20, 20, 0.95);
+  top: 100px;
+  position: absolute;
+  width: 100%;
+  height: 60%;
+  left: 0;
+  padding-top: 70px;
+}
+
+.language {
+  font-size: 30px;
+  font-weight: bold;
+  background-color: rgba(20, 20, 20, 0.95);
+  color: #ffffff;
+  text-decoration: none;
+  border: #ffffff solid 2px;
+  border-radius: 20px;
+  padding: 7px;
+  cursor: pointer;
+  margin: 0 10px;
+  margin-top: 130px;
+}
+.language:hover {
+  background-color: rgb(5, 121, 182);
+}
+
 header {
   background-image: url(../images/fondo.jpg);
   text-align: center;
@@ -371,6 +425,18 @@ header p {
   background-image: url("../images/header/instagram.png");
 }
 
+#timeDate,
+#countdown {
+  background-color: rgba(20, 20, 20, 0.95);
+  color: #ffffff;
+  padding: 3px;
+  text-transform: uppercase;
+}
+
+#countdown {
+  display: none;
+}
+
 footer {
   background-color: rgba(239, 71, 111, 0.9);
   padding: 20px;
@@ -380,17 +446,41 @@ footer {
   font-weight: bold;
 }
 
-.somosMiembros {
+.weAreMembers {
   text-align: center;
 }
-.somosMiembros h4 {
+.weAreMembers h4 {
   margin-bottom: 10px;
+  font-size: 18px;
 }
-.somosMiembros ul li {
+.weAreMembers ul li {
   list-style-type: none;
   padding: 0;
   display: inline-block;
   margin: 0 10px;
+}
+
+.communication {
+  text-align: center;
+}
+.communication h4 {
+  margin-bottom: 10px;
+  margin-top: 25px;
+  font-size: 18px;
+}
+.communication ul .listDesktop {
+  list-style-type: none;
+  padding: 0;
+  margin: 5px 10px;
+  height: 20%;
+}
+.communication ul .listDesktop .desktop {
+  width: 20%;
+  height: 50%;
+  padding: 10px;
+}
+.communication ul .listMobile .mobile {
+  display: none;
 }
 
 .about {
@@ -540,7 +630,7 @@ footer {
     background-color: rgba(20, 20, 20, 0.95);
     width: 100%;
     height: 130%;
-    top: 70px;
+    top: 100px;
     left: 0;
     flex-direction: column !important;
     padding-top: 70px;
@@ -579,6 +669,32 @@ footer {
   }
   #hiddenPopups ul li img {
     width: 200px;
+  }
+  .communication h4 {
+    margin-bottom: 2px;
+  }
+  .communication ul .listDesktop {
+    display: none;
+  }
+  .communication ul .listDesktop .desktop {
+    display: none;
+  }
+  .communication ul .listMobile {
+    display: inline-block;
+  }
+  .communication ul .listMobile .mobile {
+    display: inline-block;
+    width: 15%;
+    height: 15%;
+    padding: 10px;
+    margin-top: 0px;
+  }
+  .cardContainerDonation .cardDonation {
+    flex: 0 0 calc(100% - 20px);
+  }
+  .cardContainerDonation .cardDonation #totalDonaciones,
+  .cardContainerDonation .cardDonation #ultimaDonacion {
+    font-size: 28px;
   }
 }
 

@@ -7,11 +7,12 @@ footer {
     font-weight: bold;
 }
 
-.somosMiembros {
+.weAreMembers {
     text-align: center;
 
     h4 {
         margin-bottom: 10px;
+        font-size: 18px;
     }
 
     ul {
@@ -20,6 +21,37 @@ footer {
             padding: 0;
             display: inline-block;
             margin: 0 10px;
+        }
+    }
+}
+
+.communication {
+    text-align: center;
+
+    h4 {
+        margin-bottom: 10px;
+        margin-top: 25px;
+        font-size: 18px;
+    }
+
+    ul {
+        .listDesktop {
+            list-style-type: none;
+            padding: 0;
+            margin: 5px 10px;
+            height: 20%;
+
+            .desktop {
+                width: 20%;
+                height: 50%;
+                padding: 10px;
+            }
+        }
+
+        .listMobile {
+            .mobile {
+                display: none;
+            }
         }
     }
 }

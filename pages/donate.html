@@ -31,12 +31,21 @@
 
 <body>
     <header>
+        <div id="timeDate"></div>
+        <div id="countdown"></div>
         <nav>
             <ul>
                 <section class="containerNav">
                     <section class="buttonLanguage">
-                        <a href="./portuguese/indexportuguese.html"><img src="../images/header/idioma.png"></a>
+                        <a href="#" onclick="mostrarPopup()"><img src="../images/header/idioma.png"></a>
                     </section>
+
+                    <div id="popup" class="popupContainerLanguaje">
+                        <button class="language" onclick="cambiarIdioma('espanol')">ESPAÑOL</button>
+                        <button class="language" onclick="cambiarIdioma('ingles')">INGLÉS</button>
+                        <button class="language" onclick="cambiarIdioma('portugues')">PORTUGUÉS</button>
+                    </div>
+
                     <nav class="navbar">
                         <ul class="navLinks">
                             <li><a href="../index.html">INICIO</a></li>
@@ -113,7 +122,7 @@
                     <span class="title">GRACIAS POR AYUDARNOS</span>
                     <ul>
                         <li>Escanea el codigo QR de abajo y dona el monto que desees</li>
-                        <li><img src="../images/qr/Mascotas Felices QR.png"></li>
+                        <li><img src="../images/qr/mascotasFelicesQR.png"></li>
                     </ul>
                 </div>
             </div>
@@ -126,15 +135,32 @@
                 <br>
                 <p>También necesitamos:</p>
                 <ul>
-                    <li>Balanceado de buena calidad para perros adultos y cachorros.</li>
-                    <li>Pipetas, Antiparasitarios, Curabichera, Platsul.</li>
-                    <li>Medicamentos veterinarios, abrigos de todos los tamaños.</li>
-                    <li>Mantas, Correas, Collares, Platitos.</li>
+                    <li>- Balanceado de buena calidad para perros adultos y cachorros.</li>
+                    <li>- Pipetas, Antiparasitarios, Curabichera, Platsul.</li>
+                    <li>- Medicamentos veterinarios, abrigos de todos los tamaños.</li>
+                    <li>- Mantas, Correas, Collares, Platitos.</li>
                 </ul>
                 <br>
             </div>
         </section>
-        
+
+        <section id="donations">
+            <div class="container">
+                <h2 id="fecha"></h2>
+                <p id="hora"></p>
+            </div>
+            <div class="cardContainerDonation">
+                <div class="cardDonation">
+                    <h3 class="descriptionDonation">Última donación</h3>
+                    <h3 class="amount">$ <span id="ultimaDonacion">0</span></h3>
+                </div>
+                <div class="cardDonation">
+                    <h3 class="descriptionDonation" id="mes"></h3>
+                    <h3 class="amount">$ <span id="totalDonaciones">0</span></h3>
+                </div>
+            </div>
+        </section>
+
         <div class="goTopContainer">
             <div class="goTopButton">
                 <i class="fa-solid fa-arrow-up"></i>
@@ -143,7 +169,7 @@
     </main>
 
     <footer>
-        <section class="somosMiembros">
+        <section class="weAreMembers">
             <h4>Somos miembros de</h4>
             <ul>
                 <li><img src="../images/footer/actitudAnimal.png" alt="Actitud Animal"></li>
@@ -151,15 +177,29 @@
                 </li>
             </ul>
         </section>
-        <div>
-            <a href="https://www.whatsapp.com/?lang=es_LA"><img src="../images/footer/Whatsapp.png"
-                    alt="Logo de WhatsApp" style="width: 10%; height: 10%;"></a>
-            <p>&copy; 2023 Mascotas Felices. Todos los derechos reservados.</p>
+
+        <section class="communication">
+            <h4>Comunicate con nosotros</h4>
+            <ul>
+                <li class="listDesktop"><a href="https://www.whatsapp.com/?lang=es_LA"><img class="desktop"
+                            src="../images/footer/whatsappDesktop.png" alt="Logo de WhatsApp"></a></li>
+
+                <li class="listMobile"><a href="https://www.whatsapp.com/?lang=es_LA"><img class="mobile"
+                            src="../images/footer/whatsappMobile.png" alt="Logo de WhatsApp"></a></li>
+            </ul>
+        </section>
+
+        <p>&copy; 2024 Mascotas Felices. Todos los derechos reservados.</p>
         </div>
     </footer>
 
+    <script src="../js/languageAR.js"></script>
     <script src="../js/scrolltop.js"></script>
+    <script src="../js/date&timeAR.js"></script>
+    <script src="../js/countdownAR.js"></script>
+    <script src="../js/alternate.js"></script>
     <script src="../js/navbar.js"></script>
+    <script src="../js/donationsAR.js"></script>
     <script type="text/javascript" src="../js/jquery-3.5.1.slim.min.js?v=1648854149"></script>
     <script type="text/javascript" src="../js/jquery.fancybox.min.js?v=1648854149"></script>
 </body>

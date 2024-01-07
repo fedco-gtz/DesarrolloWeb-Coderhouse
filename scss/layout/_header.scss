@@ -44,3 +44,15 @@ header {
 .iconoInstagram {
     background-image: url('../images/header/instagram.png');
 }
+
+#timeDate,
+#countdown {
+    background-color: $background-color_11;
+    color: $color_1;
+    padding: 3px;
+    text-transform: uppercase;
+}
+
+#countdown {
+    display: none;
+}

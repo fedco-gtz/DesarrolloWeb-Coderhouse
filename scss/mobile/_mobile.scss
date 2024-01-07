@@ -46,7 +46,7 @@
 		background-color: $background-color_11;
 		width: 100%;
 		height: 130%;
-		top: 70px;
+		top: 100px;
 		left: 0;
 		flex-direction: column !important;
 		padding-top: 70px;
@@ -97,4 +97,45 @@
 			}
 		}
 	}
+
+	.communication {
+
+		h4 {
+			margin-bottom: 2px;
+		}
+
+		ul {
+			.listDesktop {
+				display: none;
+
+				.desktop {
+					display: none;
+				}
+			}
+
+			.listMobile {
+				display: inline-block;
+
+				.mobile {
+					display: inline-block;
+					width: 15%;
+					height: 15%;
+					padding: 10px;
+					margin-top: 0px;
+				}
+			}
+		}
+	}
+
+	.cardContainerDonation {
+		.cardDonation {
+			flex: 0 0 calc(100% - 20px);
+	
+			#totalDonaciones,
+			#ultimaDonacion {
+				font-size: 28px;
+			}
+		}
+	}
+
 }

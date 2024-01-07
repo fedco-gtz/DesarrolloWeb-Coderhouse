@@ -30,12 +30,21 @@
 
 <body>
     <header>
+        <div id="timeDate"></div>
+        <div id="countdown"></div>
         <nav>
             <ul>
                 <section class="containerNav">
                     <section class="buttonLanguage">
-                        <a href="../../index.html"><img src="../../images/header/idioma.png"> </a>
+                        <a href="#" onclick="mostrarPopup()"><img src="../../images/header/idioma.png"></a>
                     </section>
+
+                    <div id="popup" class="popupContainerLanguaje">
+                        <button class="language" onclick="cambiarIdioma('espanol')">ESPANHOL</button>
+                        <button class="language" onclick="cambiarIdioma('ingles')">INGLÊS</button>
+                        <button class="language" onclick="cambiarIdioma('portugues')">PORTUGUÊS</button>
+                    </div>
+
                     <nav class="navbar">
                         <ul class="navLinks">
                             <li><a href="./indexportuguese.html">COMEÇAR</a></li>
@@ -79,10 +88,10 @@
                 <br>
                 <p>Para adotar é necessário:</p>
                 <ul>
-                    <li>Ser mayor de 18 años.</li>
-                    <li>Realize entrevistas prévias.</li>
-                    <li>Registro de Identidade Civil.</li>
-                    <li>Assinatura de contrato de adoção e acompanhamento.</li>
+                    <li>- Ser mayor de 18 años.</li>
+                    <li>- Realize entrevistas prévias.</li>
+                    <li>- Registro de Identidade Civil.</li>
+                    <li>- Assinatura de contrato de adoção e acompanhamento.</li>
                 </ul>
             </div>
         </section>
@@ -153,7 +162,7 @@
                         deste
                         página
                         Você pode vê-los na seção de cães para adoção.
-                        <br><a class="linka" href="pets.html"><b>Hace click aquí</b></a>
+                        <br><a class="linka" href="./petsportuguese.html"><b>Hace click aquí</b></a>
                     </p>
                 </div>
                 <br>
@@ -173,21 +182,35 @@
     </main>
 
     <footer>
-        <section class="somosMiembros">
+        <section class="weAreMembers">
             <h4>Somos membros de</h4>
             <ul>
                 <li><img src="../../images/footer/brazilianExperience.png" alt="Brazilian Experience"></li>
                 </li>
             </ul>
         </section>
-        <div>
-            <a href="https://www.whatsapp.com/?lang=es_LA"><img src="../../images/footer/Whatsapp.png"
-                    alt="Logo de WhatsApp" style="width: 10%; height: 10%;"></a>
-            <p>&copy; 2023 Mascotas Felices. Todos los derechos reservados.</p>
-        </div>
+        
+        <section class="communication">
+            <h4>Contate-nos</h4>
+            <ul>
+                <li class="listDesktop"><a href="https://www.whatsapp.com/?lang=es_LA"><img class="desktop"
+                            src="../../images/footer/whatsappDesktop.png" alt="Logo de WhatsApp"></a>
+                </li>
+
+                <li class="listMobile"><a href="https://www.whatsapp.com/?lang=es_LA"><img class="mobile"
+                            src="../../images/footer/whatsappMobile.png" alt="Logo de WhatsApp"></a>
+                </li>
+            </ul>
+        </section>
+
+        <p>&copy; 2024 animais de estimação felizes. Todos os direitos reservados.</p>
     </footer>
 
+    <script src="../../js/languageBR.js"></script>
     <script src="../../js/scrolltop.js"></script>
+    <script src="../../js/date&timeBR.js"></script>
+    <script src="../../js/countdownBR.js"></script>
+    <script src="../../js/alternate.js"></script>
     <script src="../../js/navbar.js"></script>
 </body>
 
