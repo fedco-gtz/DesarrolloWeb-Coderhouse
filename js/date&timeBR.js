@@ -13,5 +13,5 @@ function mostrarHoraFecha() {
   var fechaActual = fechaHora.toLocaleDateString('pt-BR', opcionesFecha); 
   var horaActual = fechaHora.toLocaleTimeString('pt-BR', opcionesHora); 
   
-  lugarHoraFecha.innerHTML = 'Hoje é ' + fechaActual + ', e são ' + horaActual + '.';
+  lugarHoraFecha.innerHTML = fechaActual + ' - ' + horaActual;
 }

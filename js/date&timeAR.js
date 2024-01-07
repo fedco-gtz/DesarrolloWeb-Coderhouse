@@ -12,5 +12,5 @@ document.addEventListener('DOMContentLoaded', function() {
     var fechaActual = fechaHora.toLocaleDateString('es-AR', opcionesFecha);
     var horaActual = fechaHora.toLocaleTimeString('es-AR', opcionesHora);
   
-    lugarHoraFecha.innerHTML = 'Hoy es ' + fechaActual + ', y son las ' + horaActual + '.';
+    lugarHoraFecha.innerHTML = fechaActual + ' - ' + horaActual;
   }
