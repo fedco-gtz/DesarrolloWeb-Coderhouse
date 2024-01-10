@@ -15,7 +15,7 @@
         content="Responsible adoption, Pets, Animal welfare, Foster Dogs, United States of America, Dogs, Perfect company, Donation, Happy, Cats">
     <!-- <Links & Script> -->
     <!-- ----Styles---- -->
-    <!-- <link rel="stylesheet" href="../../css/styles.css"> -->
+    <!-- <link rel="stylesheet" href="../../css/styles.css"> En desuso desde la tercer pre-entrega -->
     <link rel="stylesheet" href="../../css/styles1.css">
     <!-- ----Fonts---- -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -84,40 +84,42 @@
                 <p>We are an organization dedicated to finding loving homes for pets in need. Our
                     objective is
                     promote responsible adoption and animal welfare.</p>
-                <p>All of our pets are rescued and are looking for a second chance. Are
+                <p id="lineBreak">All of our pets are rescued and are looking for a second chance. Are
                     vaccinated,
                     spayed and ready to find a loving home</p>
-                <br>
                 <a href="./aboutenglish.html" class="btn">Read more</a>
             </div>
         </section>
 
-        <section class="pets">
-            <div class="container">
+        <section id="petsDesktop" class="pets">
+            <div id="containerDesktop" class="container">
                 <h2>MEET OUR DOGS</h2>
                 <article class="petCard">
                     <img src="../../images/pets/perros/freddie.jpg" alt="Freddie">
                     <h3>Freddie</h3>
                     <p>Rescued from a garbage dump, he was in a state of malnutrition</p>
-                    <p>Age: approximately 2 years</p>
-                    <br>
+                    <p id="lineBreak">Age: approximately 2 years</p>
                     <a href="./contactenglish.html" class="btn">Adopt!</a>
                 </article>
             </div>
 
-            <div class="container">
+            <div id="containerDesktop" class="container">
                 <h2>MEET OUR KITTENS</h2>
                 <article class="petCard">
                     <img src="../../images/pets/gatos/nylon.jpg" alt="Nylon">
                     <h3>Nylon</h3>
                     <p>Rescued from a feral cat colony</p>
-                    <p>Age: approximately 1 year</p>
-                    <br>
+                    <p id="lineBreak">Age: approximately 1 year</p>
                     <a href="./contactenglish.html" class="btn">Adopt!</a>
                 </article>
             </div>
-            <a href="./petsenglish.html" class="btn">See more</a>
+            <a href="./petsenglish.html" id="btnDesktopResponsive" class="btn">See more</a>
         </section>
+
+        <section class="pets">
+            <a href="./petsenglish.html" id="btnDesktop" class="btn">See more</a>
+        </section>
+
         <div class="goTopContainer">
             <div class="goTopButton">
                 <i class="fa-solid fa-arrow-up"></i>
@@ -133,19 +135,27 @@
                 <li><img src="../../images/footer/bestFriendsAnimalSociety.png" alt="Best Friends Animal Society"></li>
             </ul>
         </section>
-        
+
         <section class="communication">
             <h4>Contact us</h4>
             <ul>
-                <li class="listDesktop"><a href="https://www.whatsapp.com/?lang=es_LA" target="_blank"><img class="desktop"
-                            src="../../images/footer/whatsappDesktop.png" alt="WhatsApp logo"></a>
+                <li class="listDesktop"><a href="https://www.whatsapp.com/?lang=es_LA" target="_blank"><img
+                            class="desktop" src="../../images/footer/whatsappDesktop.png" alt="WhatsApp logo"></a>
                 </li>
 
-                <li class="listMobile"><a href="https://www.whatsapp.com/?lang=es_LA" target="_blank"><img class="mobile"
-                            src="../../images/footer/whatsappMobile.png" alt="WhatsApp logo"></a>
+                <li class="listMobile"><a href="https://www.whatsapp.com/?lang=es_LA" target="_blank"><img
+                            class="mobile" src="../../images/footer/whatsappMobile.png" alt="WhatsApp logo"></a>
                 </li>
             </ul>
         </section>
+
+        <ul id="lineBreak" class="importantInformation">
+            <li class="information"><a href="./protectionenglish.html">Personal data protection</a></li>
+            <li class="separation">|</li>
+            <li class="information"><a href="./policyenglish.html">Privacy Policy</a></li>
+            <li class="separation">|</li>
+            <li class="information"><a href="./contactenglish.html">Contact</a></li>
+        </ul>
 
         <p>&copy; 2024 Happy Pets. All rights reserved.</p>
     </footer>

@@ -55,3 +55,25 @@ footer {
         }
     }
 }
+
+.importantInformation {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+
+    .information,
+    .separation {
+        display: inline;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        color: $color_3;
+
+        a {
+            color: $color_3; 
+        }
+    }
+}
+
+
+

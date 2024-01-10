@@ -14,7 +14,7 @@
         content="Actitud animal, Adopción responsable, Adoptantes, Amantes de animales, Argentina, Bienestar, Bienestar animal, Cambio de vida, Compañía perfecta, Cuidado, Felicidad, Felices, Gatos, Hogar amoroso, Hogares permanentes, Hace feliz a un gato, Mascotas, Mascotas bajo cuidado, Perros, Protección, Rehabilitación, Rescate, Voluntarios">
     <!-- <Links & Script> -->
     <!-- ----Styles---- -->
-    <!-- <link rel="stylesheet" href="../css/styles.css"> -->
+    <!-- <link rel="stylesheet" href="../css/styles.css"> En desuso desde la tercer pre-entrega -->
     <link rel="stylesheet" href="../css/styles1.css">
     <!-- ----Fonts---- -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -78,9 +78,8 @@
         <section class="contact">
             <div class="container">
                 <h2>¡Contáctanos!</h2>
-                <p>Si tienes alguna pregunta o deseas más información, por favor completa el siguiente formulario y nos
+                <p id="lineBreak">Si tienes alguna pregunta o deseas más información, por favor completa el siguiente formulario y nos
                     pondremos en contacto contigo a la brevedad posible.</p>
-                <br>
                 <form action="#" method="post">
                     <div class="gridContainer">
                         <div>
@@ -145,17 +144,25 @@
         <section class="communication">
             <h4>Comunicate con nosotros</h4>
             <ul>
-                <li class="listDesktop"><a href="https://www.whatsapp.com/?lang=es_LA"><img class="desktop"
+                <li class="listDesktop"><a href="https://www.whatsapp.com/?lang=es_LA" target="_blank"><img class="desktop"
                             src="../images/footer/whatsappDesktop.png" alt="Logo de WhatsApp"></a>
                 </li>
 
-                <li class="listMobile"><a href="https://www.whatsapp.com/?lang=es_LA"><img class="mobile"
+                <li class="listMobile"><a href="https://www.whatsapp.com/?lang=es_LA" target="_blank"><img class="mobile"
                             src="../images/footer/whatsappMobile.png" alt="Logo de WhatsApp"></a>
                 </li>
             </ul>
         </section>
 
-        <p>&copy; 2024 Mascotas Felices. Todos los derechos reservados.</p>
+        <ul class="importantInformation">
+            <li class="information"><a href="./protection.html">Protección de Datos Personales</a></li>
+            <li class="separation">|</li>
+            <li class="information"><a href="./policy.html">Política de Privacidad</a></li>
+            <li class="separation">|</li>
+            <li class="information"><a href="./contact.html">Contacto</a></li>
+        </ul>
+
+        <p><br>&copy; 2024 Mascotas Felices. Todos los derechos reservados.</p>
     </footer>
 
     <script src="../js/languageAR.js"></script>

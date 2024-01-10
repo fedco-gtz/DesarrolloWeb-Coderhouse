@@ -1,4 +1,4 @@
-@media screen and (max-width: 768px) {
+@media screen and (min-width:320px) and (max-width: 768px) {
 	header {
 		h1 {
 			font-size: 24px;
@@ -74,8 +74,17 @@
 		display: none;
 	}
 
+	.mapsTablet {
+		display: none;
+	}
+
 	.mapsMobile {
 		display: block;
+		width: 100%;
+	}
+
+	.mapsMiniMobile {
+		display: none;
 	}
 
 	#hiddenPopups {
@@ -130,7 +139,7 @@
 	.cardContainerDonation {
 		.cardDonation {
 			flex: 0 0 calc(100% - 20px);
-	
+
 			#totalDonaciones,
 			#ultimaDonacion {
 				font-size: 28px;
@@ -138,4 +147,97 @@
 		}
 	}
 
+	.policyProtection {
+		font-size: 10px;
+	}
+
+	.importantInformation {
+		display: block;
+
+		.information {
+			display: block;
+			text-align: center;
+			margin-bottom: 10px;
+		}
+
+		.separation {
+			display: none;
+		}
+	}
+
+	#btnDesktop {
+		display: none;
+	}
+
+	.btnPets {
+		display: flex;
+		text-align: center;
+        justify-content: center;
+
+		&:hover {
+			display: none;
+		}
+	}
+
+}
+
+@media screen and (min-width:320px) and (max-width: 375px) {
+
+	#timeDate,
+	#countdown {
+		font-size: 12px;
+	}
+
+	.mapsMiniMobile {
+		display: block;
+		width: 100%;
+	}
+
+	.mapsMobile {
+		display: none;
+	}
+
+	.mapsDesktop {
+		display: none;
+	}
+
+	.mapsDesktopL {
+		display: none;
+	}
+
+	.mapsTablet {
+		display: none;
+	}
+
+	.importantInformation {
+
+
+		.information {
+			font-size: 10px;
+		}
+
+	}
+
+	#btnDesktop {
+		display: none;
+	}
+
+	.btnPets {
+		display: flex;
+		text-align: center;
+        justify-content: center;
+
+		&:hover {
+			display: none;
+		}
+	}
+
+	.card {
+		img {
+			width: 100%;
+			height: 50%;
+			margin-bottom: 2px;
+			object-fit: cover;
+		}
+	}
 }

@@ -14,7 +14,7 @@
         content="Adoção responsável, Adotantes, Amantes de animais, Brasil, Brazilian Experience, Bem-estar, Bem-estar animal, Mudança de vida, Companhia perfeita, Cuidados, Treinadores, Felicidade, Feliz, Gatos, Lar amoroso, Casas permanentes, Inúmeros animais, Animais de estimação, Animais de estimação sob cuidados, Cães, Proteção, Reabilitação, Resgate, Voluntários">
     <!-- <Links & Script> -->
     <!-- ----Styles---- -->
-    <!-- <link rel="stylesheet" href="../../css/styles.css"> -->
+    <!-- <link rel="stylesheet" href="../../css/styles.css"> En desuso desde la tercer pre-entrega -->
     <link rel="stylesheet" href="../../css/styles1.css">
     <link rel="stylesheet" href="../../css/jquery.fancybox.min.css">
     <!-- ----Fonts---- -->
@@ -82,10 +82,9 @@
         <section id="about">
             <div class="container">
                 <h2>DADOS DA CONTA BANCÁRIA</h2>
-                <p>Lembre-se após a transferência ter sido feita, ENVIE-NOS A PROVA
+                <p id="lineBreak">Lembre-se após a transferência ter sido feita, ENVIE-NOS A PROVA
                     o NÚMERO DE OPERAÇÃO por mensagem privada ou e-mail para animaisfelizes@gmail.com</p>
-                <br>
-                <ul>
+                <ul id="lineBreak">
                     <li>Banco Temperley</li>
                     <li>Caixa de poupança $ N° 018-090614/1</li>
                     <li>CBU 1234567891011121314151</li>
@@ -93,22 +92,16 @@
                     <li>CUIL: 20-12345678-3</li>
                     <li>ALIAS: Animais.Felizes</li>
                 </ul>
-                <br>
                 <p>DE FORA, PELA WESTERN UNION</p>
-                <br>
             </div>
         </section>
 
         <section id="donations">
             <div class="container">
-                <h2>MERCADO PAGO</h2>
-                <br>
-                <p>Se você doar DA SUA CONTA, eles não deduzem a comissão.</p>
-                <br>
-                <p>Nuestro e-mail en Mercado Pago es animaisfelizes@gmail.com</p>
-                <br>
-                <p>Você também pode colocar este número de telefone: +55 12 91234 1234</p>
-                <br>
+                <h2 id="lineBreak">MERCADO PAGO</h2>
+                <p id="lineBreak">Se você doar DA SUA CONTA, eles não deduzem a comissão.</p>
+                <p id="lineBreak">Nuestro e-mail en Mercado Pago es animaisfelizes@gmail.com</p>
+                <p id="lineBreak">Você também pode colocar este número de telefone: +55 12 91234 1234</p>
             </div>
             <div class="col-md-6 columna">
                 <a data-fancybox="" data-src="#hiddenPopups" href="javascript:;"
@@ -143,6 +136,24 @@
                 <br>
             </div>
         </section>
+
+        <section id="donations">
+            <div class="container">
+                <h2 id="fecha"></h2>
+                <p id="hora"></p>
+            </div>
+            <div class="cardContainerDonation">
+                <div class="cardDonation">
+                    <h3 class="descriptionDonation">Última doação</h3>
+                    <h3 class="amount">R$ <span id="ultimaDonacion">0</span></h3>
+                </div>
+                <div class="cardDonation">
+                    <h3 class="descriptionDonation" id="mes"></h3>
+                    <h3 class="amount">R$ <span id="totalDonaciones">0</span></h3>
+                </div>
+            </div>
+        </section>
+
         <div class="goTopContainer">
             <div class="goTopButton">
                 <i class="fa-solid fa-arrow-up"></i>
@@ -161,18 +172,25 @@
         <section class="communication">
             <h4>Contate-nos</h4>
             <ul>
-                <li class="listDesktop"><a href="https://www.whatsapp.com/?lang=es_LA"><img class="desktop"
+                <li class="listDesktop"><a href="https://www.whatsapp.com/?lang=es_LA" target="_blank"><img class="desktop"
                             src="../../images/footer/whatsappDesktop.png" alt="Logo de WhatsApp"></a>
                 </li>
 
-                <li class="listMobile"><a href="https://www.whatsapp.com/?lang=es_LA"><img class="mobile"
+                <li class="listMobile"><a href="https://www.whatsapp.com/?lang=es_LA" target="_blank"><img class="mobile"
                             src="../../images/footer/whatsappMobile.png" alt="Logo de WhatsApp"></a>
                 </li>
             </ul>
         </section>
 
+        <ul id="lineBreak" class="importantInformation">
+            <li class="information"><a href="../portuguese/protectionportuguese.html">Proteção de dados pessoais</a></li>
+            <li class="separation">|</li>
+            <li class="information"><a href="../portuguese/policyportuguese.html">Política de privacidade</a></li>
+            <li class="separation">|</li>
+            <li class="information"><a href="../portuguese/contactportuguese.html">Contato</a></li>
+        </ul>
+
         <p>&copy; 2024 animais de estimação felizes. Todos os direitos reservados.</p>
-        </div>
     </footer>
 
     <script src="../../js/languageBR.js"></script>
@@ -181,6 +199,7 @@
     <script src="../../js/countdownBR.js"></script>
     <script src="../../js/alternate.js"></script>
     <script src="../../js/navbar.js"></script>
+    <script src="../../js/donationsBR.js"></script>
     <script type="text/javascript" src="../../js/jquery-3.5.1.slim.min.js?v=1648854149"></script>
     <script type="text/javascript" src="../../js/jquery.fancybox.min.js?v=1648854149"></script>
 </body>

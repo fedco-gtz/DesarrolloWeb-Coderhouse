@@ -14,7 +14,7 @@
         content="Actitud animal, Adopción responsable, Adoptantes, Amantes de animales, Argentina, Bienestar, Bienestar animal, Cambio de vida, Compañía perfecta, Compromiso, Cuidado, Donación, Entrevista, Felicidad, Felices, Gatos, Hogar amoroso, Hogares permanentes, Hace feliz a un gato, Mascotas, Mascotas bajo cuidado, Mercado Pago, Perros, Protección, Rehabilitación, Rescate, Voluntarios">
     <!-- <Links & Script> -->
     <!-- ----Styles---- -->
-    <!-- <link rel="stylesheet" href="../css/styles.css"> -->
+    <!-- <link rel="stylesheet" href="../css/styles.css"> En desuso desde la tercer pre-entrega -->
     <link rel="stylesheet" href="../css/styles1.css">
     <!-- ----Fonts---- -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -81,12 +81,11 @@
         <section id="about">
             <div class="container">
                 <h2>¿CÓMO ADOPTAR?</h2>
-                <p>Todos los sábados hacemos encuentros de 15:00 a 18:00 horas, en Plaza Teniente General Emilio Mitre,
+                <p id="lineBreak">Todos los sábados hacemos encuentros de 15:00 a 18:00 horas, en Plaza Teniente General
+                    Emilio Mitre,
                     Av.
                     Pueyrredón y Av. Las Heras (CABA).</p>
-                <br>
-                <p>Si querés adoptar, llamanos al +54 9 11 1234 1234 (NO WHATSAPP).</p>
-                <br>
+                <p id="lineBreak">Si querés adoptar, llamanos al +54 9 11 1234 1234 (NO WHATSAPP).</p>
                 <p>Para adoptar es necesario:</p>
                 <ul>
                     <li>- Ser mayor de 21 años.</li>
@@ -99,12 +98,9 @@
 
         <section id="donations">
             <div class="container">
-                <h2>REQUISITOS PARA ADOPTAR</h2>
-                <br>
-                <p>Si donás DESDE TU CUENTA, no nos descuentan la comisión.</p>
-                <br>
-                <p>Nuestro e-mail en Mercado Pago es mascotasfelices@gmail.com</p>
-                <br>
+                <h2 id="lineBreak">REQUISITOS PARA ADOPTAR</h2>
+                <p id="lineBreak">Si donás DESDE TU CUENTA, no nos descuentan la comisión.</p>
+                <p id="lineBreak">Nuestro e-mail en Mercado Pago es mascotasfelices@gmail.com</p>
                 <p>También podés poner este teléfono: +54 9 11 1234 1234</p>
             </div>
         </section>
@@ -112,10 +108,11 @@
         <section id="about">
             <div class="container">
                 <h2>¿CÓMO CONTRIBUIR?</h2>
-                <p>Adoptando, difundiendo, creando conciencia, transitando, siendo voluntario/a, participando.
-                    Puedes ver opciones de donación en la sección <a class="linka" href="donate.html"><b>DONAR</b></a>
+                <p id="lineBreak">Adoptando, difundiendo, creando conciencia, transitando, siendo voluntario/a,
+                    participando.
+                    Puedes ver opciones de donación en la sección <a class="linkRequirements"
+                        href="donate.html"><b>DONAR</b></a>
                 </p>
-                <br>
                 <p>También necesitamos:</p>
                 <ul>
                     <li>- Good quality balanced for adult dogs and puppies.</li>
@@ -128,11 +125,15 @@
 
         <section id="donations">
             <div class="container">
-                <h2>NUESTRA UBICACIÓN</h2>
-                <br>
-                <p>Argentina, CABA; Encuentros Mascotas Felices en Plaza Teniente General Emilio Mitre</p>
-                <br>
+                <h2 id="lineBreak">NUESTRA UBICACIÓN</h2>
+                <p id="lineBreak">Argentina, CABA; Encuentros Mascotas Felices en Plaza Teniente General Emilio Mitre
+                </p>
                 <iframe class="mapsDesktop"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.62160049007!2d-58.400261924944495!3d-34.58844005669038!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca992114ddb5%3A0x11b580d5e359bfd8!2sPlaza%20Teniente%20General%20Emilio%20Mitre!5e0!3m2!1ses!2sar!4v1704402878659!5m2!1ses!2sar"
+                    width="1200" height="400" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+                <iframe class="mapsDesktopL"
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.62160049007!2d-58.400261924944495!3d-34.58844005669038!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca992114ddb5%3A0x11b580d5e359bfd8!2sPlaza%20Teniente%20General%20Emilio%20Mitre!5e0!3m2!1ses!2sar!4v1704402878659!5m2!1ses!2sar"
                     width="1200" height="400" style="border:0;" allowfullscreen="" loading="lazy"
                     referrerpolicy="no-referrer-when-downgrade"></iframe>
@@ -140,6 +141,16 @@
                 <iframe class="mapsMobile"
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.62160049007!2d-58.400261924944495!3d-34.58844005669038!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca992114ddb5%3A0x11b580d5e359bfd8!2sPlaza%20Teniente%20General%20Emilio%20Mitre!5e0!3m2!1ses!2sar!4v1704402878659!5m2!1ses!2sar"
                     width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+                <iframe class="mapsMiniMobile"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.62160049007!2d-58.400261924944495!3d-34.58844005669038!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca992114ddb5%3A0x11b580d5e359bfd8!2sPlaza%20Teniente%20General%20Emilio%20Mitre!5e0!3m2!1ses!2sar!4v1704769656071!5m2!1ses!2sar"
+                    width="200" height="200" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+                <iframe class="mapsTablet"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.62160049007!2d-58.400261924944495!3d-34.58844005669038!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca992114ddb5%3A0x11b580d5e359bfd8!2sPlaza%20Teniente%20General%20Emilio%20Mitre!5e0!3m2!1ses!2sar!4v1704769656071!5m2!1ses!2sar"
+                    width="600" height="300" style="border:0;" allowfullscreen="" loading="lazy"
                     referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
         </section>
@@ -155,16 +166,16 @@
                         nuestro e-mail mascotasfelices@gmail.com
                     </p>
                 </div>
-                <br>
+
                 <div class="ask">
                     <h3 class="questionTitle">¿Cuáles son las mascotas que puedo adoptar? ▼</h3>
                     <p class="questionAnswer">Si deseas conocer a nuestras mascotas en adopción a través de esta
                         página
                         puedes verlos en la sección de perros en adopción.
-                        <br><a class="linka" href="pets.html"><b>Hace click aquí</b></a>
+                        <br><a class="linkRequirements" href="pets.html"><b>Hace click aquí</b></a>
                     </p>
                 </div>
-                <br>
+
                 <div class="ask">
                     <h3 class="questionTitle">¿Cómo puedo ser parte de Mascotas Felices y contribuir? ▼</h3>
                     <p class="questionAnswer">Adoptando, difundiendo, creando conciencia, transitando, siendo
@@ -192,17 +203,25 @@
         <section class="communication">
             <h4>Comunicate con nosotros</h4>
             <ul>
-                <li class="listDesktop"><a href="https://www.whatsapp.com/?lang=es_LA"><img class="desktop"
-                            src="../images/footer/whatsappDesktop.png" alt="Logo de WhatsApp"></a>
+                <li class="listDesktop"><a href="https://www.whatsapp.com/?lang=es_LA" target="_blank"><img
+                            class="desktop" src="../images/footer/whatsappDesktop.png" alt="Logo de WhatsApp"></a>
                 </li>
 
-                <li class="listMobile"><a href="https://www.whatsapp.com/?lang=es_LA"><img class="mobile"
-                            src="../images/footer/whatsappMobile.png" alt="Logo de WhatsApp"></a>
+                <li class="listMobile"><a href="https://www.whatsapp.com/?lang=es_LA" target="_blank"><img
+                            class="mobile" src="../images/footer/whatsappMobile.png" alt="Logo de WhatsApp"></a>
                 </li>
             </ul>
         </section>
 
-        <p>&copy; 2024 Mascotas Felices. Todos los derechos reservados.</p>
+        <ul class="importantInformation">
+            <li class="information"><a href="./protection.html">Protección de Datos Personales</a></li>
+            <li class="separation">|</li>
+            <li class="information"><a href="./policy.html">Política de Privacidad</a></li>
+            <li class="separation">|</li>
+            <li class="information"><a href="./contact.html">Contacto</a></li>
+        </ul>
+
+        <p><br>&copy; 2024 Mascotas Felices. Todos los derechos reservados.</p>
     </footer>
 
     <script src="../js/languageAR.js"></script>

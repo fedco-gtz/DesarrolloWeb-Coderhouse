@@ -14,7 +14,7 @@
         content="Responsible adoption, Adopters, Animal lovers, United States of America, Welfare, Animal welfare, Change of life, Perfect company, Care, Donation, Happiness, Happy, Cats, Loving home, Permanent homes, Pets, Pets in care, Dogs, Protection, Rehabilitation, Rescue, Volunteers">
     <!-- <Links & Script> -->
     <!-- ----Styles---- -->
-    <!-- <link rel="stylesheet" href="../../css/styles.css"> -->
+    <!-- <link rel="stylesheet" href="../../css/styles.css"> En desuso desde la tercer pre-entrega -->
     <link rel="stylesheet" href="../../css/styles1.css">
     <link rel="stylesheet" href="../../css/jquery.fancybox.min.css">
     <!-- ----Fonts---- -->
@@ -82,32 +82,23 @@
         <section id="about">
             <div class="container">
                 <h2>BANK ACCOUNT DATA</h2>
-                <p>Remember after the transfer has been made, SEND US THE PROOF
+                <p id="lineBreak">Remember after the transfer has been made, SEND US THE PROOF
                     o OPERATION NUMBER by private message or e-mail to happypets@gmail.com</p>
-                <br>
-                <ul>
+                <ul id="lineBreak">
                     <li>JP Morgan Chase & Co</li>
                     <li>Savings bank $ N° 018-090614/1</li>
                     <li>CBU 1234567891011121314151</li>
                     <li>Owner: Federico Gabriel Gutierrez</li>
                     <li>ALIAS: Happy.Pets</li>
                 </ul>
-                <br>
                 <p>FROM ABROAD, BY ANY COMPANY WITH A PRESENCE IN THE COUNTRY</p>
-                <br>
             </div>
         </section>
 
         <section id="donations">
             <div class="container">
-                <h2>VIRTUAL PAYMENT MEANS</h2>
-                <br>
-                <p>Se você doar DA SUA CONTA, eles não deduzem a comissão.</p>
-                <br>
-                <p>Nuestro e-mail en Mercado Pago es animaisfelizes@gmail.com</p>
-                <br>
-                <p>Você também pode colocar este número de telefone: +55 12 91234 1234</p>
-                <br>
+                <h2 id="lineBreak">VIRTUAL PAYMENT MEANS</h2>
+                <p id="lineBreak">Find us on Paypal with the cell phone number +1 718 1234 123</p>
             </div>
             <div class="col-md-6 columna">
                 <a data-fancybox="" data-src="#hiddenPopups" href="javascript:;"
@@ -121,7 +112,7 @@
                     <span class="title">THANKS FOR HELPING US</span>
                     <ul>
                         <li>Scan the QR code below and donate the amount you want</li>
-                        <li><img src="../../images/qr/Animais de estimação felizes QR.png"></li>
+                        <li><img src="../../images/qr/happyPetsQR.png"></li>
                     </ul>
                 </div>
             </div>
@@ -130,8 +121,7 @@
         <section id="about">
             <div class="container">
                 <h2>OTHER WAYS TO CONTRIBUTE</h2>
-                <p>Adopting, spreading, creating awareness, traveling, volunteering, participating.</p>
-                <br>
+                <p id="lineBreak">Adopting, spreading, creating awareness, traveling, volunteering, participating.</p>
                 <p>We also need:</p>
                 <ul>
                     <li>- Good quality balanced for adult dogs and puppies.</li>
@@ -139,9 +129,26 @@
                     <li>- Veterinary medications, coats of all sizes.</li>
                     <li>- Blankets, Leashes, Collars, Dish.</li>
                 </ul>
-                <br>
             </div>
         </section>
+
+        <section id="donations">
+            <div class="container">
+                <h2 id="fecha"></h2>
+                <p id="hora"></p>
+            </div>
+            <div class="cardContainerDonation">
+                <div class="cardDonation">
+                    <h3 class="descriptionDonation">Last donation</h3>
+                    <h3 class="amount">U$S <span id="ultimaDonacion">0</span></h3>
+                </div>
+                <div class="cardDonation">
+                    <h3 class="descriptionDonation" id="mes"></h3>
+                    <h3 class="amount">U$S <span id="totalDonaciones">0</span></h3>
+                </div>
+            </div>
+        </section>
+
         <div class="goTopContainer">
             <div class="goTopButton">
                 <i class="fa-solid fa-arrow-up"></i>
@@ -157,19 +164,27 @@
                 <li><img src="../../images/footer/bestFriendsAnimalSociety.png" alt="Best Friends Animal Society"></li>
             </ul>
         </section>
-        
+
         <section class="communication">
             <h4>Contact us</h4>
             <ul>
-                <li class="listDesktop"><a href="https://www.whatsapp.com/?lang=es_LA" target="_blank"><img class="desktop"
-                            src="../../images/footer/whatsappDesktop.png" alt="WhatsApp logo"></a>
+                <li class="listDesktop"><a href="https://www.whatsapp.com/?lang=es_LA" target="_blank"><img
+                            class="desktop" src="../../images/footer/whatsappDesktop.png" alt="WhatsApp logo"></a>
                 </li>
 
-                <li class="listMobile"><a href="https://www.whatsapp.com/?lang=es_LA" target="_blank"><img class="mobile"
-                            src="../../images/footer/whatsappMobile.png" alt="WhatsApp logo"></a>
+                <li class="listMobile"><a href="https://www.whatsapp.com/?lang=es_LA" target="_blank"><img
+                            class="mobile" src="../../images/footer/whatsappMobile.png" alt="WhatsApp logo"></a>
                 </li>
             </ul>
         </section>
+
+        <ul id="lineBreak" class="importantInformation">
+            <li class="information"><a href="./protectionenglish.html">Personal data protection</a></li>
+            <li class="separation">|</li>
+            <li class="information"><a href="./policyenglish.html">Privacy Policy</a></li>
+            <li class="separation">|</li>
+            <li class="information"><a href="./contactenglish.html">Contact</a></li>
+        </ul>
 
         <p>&copy; 2024 Happy Pets. All rights reserved.</p>
     </footer>
@@ -180,6 +195,7 @@
     <script src="../../js/countdownUSA.js"></script>
     <script src="../../js/alternate.js"></script>
     <script src="../../js/navbar.js"></script>
+    <script src="../../js/donationsUSA.js"></script>
     <script type="text/javascript" src="../../js/jquery-3.5.1.slim.min.js?v=1648854149"></script>
     <script type="text/javascript" src="../../js/jquery.fancybox.min.js?v=1648854149"></script>
 </body>

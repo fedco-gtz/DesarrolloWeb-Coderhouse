@@ -6,6 +6,7 @@
 @import "components/card";
 @import "components/form";
 @import "components/popups.scss";
+@import "components/line-break";
 
 @import "layout/header";
 @import "layout/footer";
@@ -16,4 +17,6 @@
 @import "pages/requirements";
 @import "pages/donate";
 
-@import "mobile/mobile"
+@import "mobile-tablet/mobile";
+@import "mobile-tablet/tablet";
+@import "mobile-tablet/desktop"

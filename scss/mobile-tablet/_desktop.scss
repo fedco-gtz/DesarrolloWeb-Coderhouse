@@ -1,0 +1,69 @@
+@media screen and (min-width:868px) and (max-width: 1250px) {
+    .mapsMiniMobile {
+        display: none;
+    }
+
+    .mapsMobile {
+        display: none;
+    }
+
+    .mapsDesktop {
+        display: none;
+    }
+
+    .mapsDesktopL {
+        display: block;
+        width: 70%;
+        height: 80%;
+    }
+
+    .mapsTablet {
+        display: none;
+    }
+
+}
+
+@media screen and (min-width: 700px) {
+    #petsDesktop {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 20px;
+    }
+
+    #containerDesktop {
+        text-align: center;
+    }
+
+    .petCard img {
+        width: 100%;
+        height: 300px;
+        object-fit: cover;
+    }
+
+    .petCard h3 {
+        font-size: 1.2em;
+    }
+
+    .petCard p {
+        margin-bottom: 5px;
+    }
+
+    #btnDesktopResponsive {
+		display: none;
+	}
+
+    #btnDesktop {
+        display: block;
+        margin: 0 auto;
+        width: 60%;
+        text-align: center;
+        margin-top: -50px;
+    }
+
+}
+
+@media screen and (min-width:843px) and (max-width: 1152px) {
+    .petCard p {
+        font-size: 15px;
+    }
+}

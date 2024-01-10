@@ -4,17 +4,19 @@ const fechaElement = document.getElementById('fecha');
 const horaElement = document.getElementById('hora');
 const mesElement = document.getElementById('mes');
 
+const opcionesFecha = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
+
 function mostrarFecha() {
     const ahora = new Date();
-    const fecha = ahora.toLocaleDateString();
-    const mes = ahora.toLocaleDateString(undefined, { month: 'long' });
+    const fecha = ahora.toLocaleDateString('es-AR', opcionesFecha);
+    const mes = ahora.toLocaleDateString('es-AR', { month: 'long' });
     fechaElement.textContent = `DINERO RECIBIDO DE DONACIONES HOY (${fecha})`;
     mesElement.textContent = `Total donaciones en ${mes}`;
 }
 
 function mostrarHora() {
     const ahora = new Date();
-    const hora = ahora.toLocaleTimeString();
+    const hora = ahora.toLocaleTimeString('es-AR');
     horaElement.textContent = `Última actualización realizada a las: ${hora}`;
 }
 
@@ -22,7 +24,6 @@ function actualizarNumero() {
     const numeroAleatorio = Math.floor(Math.random() * 10001);
     const numeroActual = parseInt(localStorage.getItem('numeroActual')) || 0;
     const numeroTotal = parseInt(localStorage.getItem('numeroTotal')) || 0;
-
 
     const nuevoNumero = numeroActual + numeroAleatorio;
     localStorage.setItem('numeroActual', nuevoNumero);
@@ -34,7 +35,6 @@ function actualizarNumero() {
     mostrarHora();
 }
 
-
 function reiniciarNumero() {
     const ahora = new Date();
     if (ahora.getHours() === 0 && ahora.getMinutes() === 0 && ahora.getSeconds() === 0) {
@@ -42,10 +42,8 @@ function reiniciarNumero() {
     }
 }
 
-
 actualizarNumero();
 setInterval(actualizarNumero, 1 * 60 * 1000);
 
-
 reiniciarNumero();
-setInterval(reiniciarNumero, 1000); 
+setInterval(reiniciarNumero, 1000);

@@ -82,40 +82,43 @@
                 <p>Somos una organización dedicada a encontrar hogares amorosos para mascotas necesitadas. Nuestro
                     objetivo es
                     promover la adopción responsable y el bienestar animal.</p>
-                <p>Todas nuestras mascotas son rescatadas y se encuentran en busca de una segunda oportunidad. Están
+                <p id="lineBreak">Todas nuestras mascotas son rescatadas y se encuentran en busca de una segunda
+                    oportunidad. Están
                     vacunadas,
                     esterilizadas y listas para encontrar un hogar lleno de amor.</p>
-                <br>
                 <a href="./pages/about.html" class="btn">Leer más</a>
             </div>
         </section>
 
-        <section class="pets">
-            <div class="container">
+        <section id="petsDesktop" class="pets">
+            <div id="containerDesktop" class="container">
                 <h2>CONOCE A NUESTROS PERRITOS</h2>
                 <article class="petCard">
                     <img src="./images/pets/perros/freddie.jpg" alt="Freddie">
                     <h3>Freddie</h3>
                     <p>Rescatado de basural, se encontraba en estado de desnutrición</p>
-                    <p>Edad: 2 años aproximadamente</p>
-                    <br>
+                    <p id="lineBreak">Edad: 2 años aproximadamente</p>
                     <a href="./pages/contact.html" class="btn">¡Adoptar!</a>
                 </article>
             </div>
 
-            <div class="container">
+            <div id="containerDesktop" class="container">
                 <h2>CONOCE A NUESTROS GATITOS</h2>
                 <article class="petCard">
                     <img src="./images/pets/gatos/nylon.jpg" alt="Nylon">
                     <h3>Nylon</h3>
                     <p>Rescatado de una colonia de gatos salvajes</p>
-                    <p>Edad: 1 año aproximadamente</p>
-                    <br>
+                    <p id="lineBreak">Edad: 1 año aproximadamente</p>
                     <a href="./pages/contact.html" class="btn">¡Adoptar!</a>
                 </article>
+                <a href="./pages/pets.html" id="btnDesktopResponsive" class="btn">Ver más</a>
             </div>
-            <a href="./pages/pets.html" class="btn">Ver más</a>
         </section>
+
+        <section class="pets">
+            <a href="./pages/pets.html" id="btnDesktop" class="btn">Ver más</a>
+        </section>
+
         <div class="goTopContainer">
             <div class="goTopButton">
                 <i class="fa-solid fa-arrow-up"></i>
@@ -136,17 +139,25 @@
         <section class="communication">
             <h4>Comunicate con nosotros</h4>
             <ul>
-                <li class="listDesktop"><a href="https://www.whatsapp.com/?lang=es_LA"><img class="desktop"
-                            src="./images/footer/whatsappDesktop.png" alt="Logo de WhatsApp"></a>
+                <li class="listDesktop"><a href="https://www.whatsapp.com/?lang=es_LA" target="_blank"><img
+                            class="desktop" src="./images/footer/whatsappDesktop.png" alt="Logo de WhatsApp"></a>
                 </li>
 
-                <li class="listMobile"><a href="https://www.whatsapp.com/?lang=es_LA"><img class="mobile"
-                            src="./images/footer/whatsappMobile.png" alt="Logo de WhatsApp"></a>
+                <li class="listMobile"><a href="https://www.whatsapp.com/?lang=es_LA" target="_blank"><img
+                            class="mobile" src="./images/footer/whatsappMobile.png" alt="Logo de WhatsApp"></a>
                 </li>
             </ul>
         </section>
 
-        <p>&copy; 2024 Mascotas Felices. Todos los derechos reservados.</p>
+        <ul class="importantInformation">
+            <li class="information"><a href="./pages/protection.html">Protección de Datos Personales</a></li>
+            <li class="separation">|</li>
+            <li class="information"><a href="./pages/policy.html">Política de Privacidad</a></li>
+            <li class="separation">|</li>
+            <li class="information"><a href="./pages/contact.html">Contacto</a></li>
+        </ul>
+
+        <p><br>&copy; 2024 Mascotas Felices. Todos los derechos reservados.</p>
     </footer>
 
     <script src="./js/language.js"></script>

@@ -9,69 +9,98 @@
 
 <url>
   <loc>https://fedco-gtz.github.io/mascotasfelices.github.io/</loc>
-  <lastmod>2023-12-26T00:20:44+00:00</lastmod>
+  <lastmod>2024-01-07T15:34:40+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
-  <loc>https://fedco-gtz.github.io/mascotasfelices.github.io/pages/portuguese/indexportuguese.html</loc>
-  <lastmod>2023-12-26T00:20:44+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
   <loc>https://fedco-gtz.github.io/mascotasfelices.github.io/index.html</loc>
-  <lastmod>2023-12-26T00:20:44+00:00</lastmod>
+  <lastmod>2024-01-07T15:34:40+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://fedco-gtz.github.io/mascotasfelices.github.io/pages/pets.html</loc>
-  <lastmod>2023-12-26T00:20:44+00:00</lastmod>
+  <lastmod>2024-01-07T15:34:40+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://fedco-gtz.github.io/mascotasfelices.github.io/pages/about.html</loc>
-  <lastmod>2023-12-26T00:20:44+00:00</lastmod>
+  <lastmod>2024-01-07T15:34:40+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://fedco-gtz.github.io/mascotasfelices.github.io/pages/contact.html</loc>
-  <lastmod>2023-12-26T00:20:44+00:00</lastmod>
+  <lastmod>2024-01-07T15:34:40+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://fedco-gtz.github.io/mascotasfelices.github.io/pages/requirements.html</loc>
-  <lastmod>2023-12-26T00:20:44+00:00</lastmod>
+  <lastmod>2024-01-07T15:34:40+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://fedco-gtz.github.io/mascotasfelices.github.io/pages/donate.html</loc>
-  <lastmod>2023-12-26T00:20:44+00:00</lastmod>
+  <lastmod>2024-01-07T15:34:40+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://fedco-gtz.github.io/mascotasfelices.github.io/pages/portuguese/indexportuguese.html</loc>
+  <lastmod>2024-01-07T15:34:40+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://fedco-gtz.github.io/mascotasfelices.github.io/pages/portuguese/petsportuguese.html</loc>
-  <lastmod>2023-12-26T00:20:44+00:00</lastmod>
-  <priority>0.64</priority>
+  <lastmod>2024-01-07T15:34:40+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
   <loc>https://fedco-gtz.github.io/mascotasfelices.github.io/pages/portuguese/aboutportuguese.html</loc>
-  <lastmod>2023-12-26T00:20:44+00:00</lastmod>
-  <priority>0.64</priority>
+  <lastmod>2024-01-07T15:34:40+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
   <loc>https://fedco-gtz.github.io/mascotasfelices.github.io/pages/portuguese/contactportuguese.html</loc>
-  <lastmod>2023-12-26T00:20:44+00:00</lastmod>
-  <priority>0.64</priority>
+  <lastmod>2024-01-07T15:34:40+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
   <loc>https://fedco-gtz.github.io/mascotasfelices.github.io/pages/portuguese/requirementsportuguese.html</loc>
-  <lastmod>2023-12-26T00:20:44+00:00</lastmod>
-  <priority>0.64</priority>
+  <lastmod>2024-01-07T15:34:40+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
   <loc>https://fedco-gtz.github.io/mascotasfelices.github.io/pages/portuguese/donateportuguese.html</loc>
-  <lastmod>2023-12-26T00:20:44+00:00</lastmod>
-  <priority>0.64</priority>
+  <lastmod>2024-01-07T15:34:40+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
-
+<url>
+  <loc>https://fedco-gtz.github.io/mascotasfelices.github.io/pages/english/indexenglish.html</loc>
+  <lastmod>2024-01-07T15:34:40+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://fedco-gtz.github.io/mascotasfelices.github.io/pages/english/petsenglish.html</loc>
+  <lastmod>2024-01-07T15:34:40+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://fedco-gtz.github.io/mascotasfelices.github.io/pages/english/aboutenglish.html</loc>
+  <lastmod>2024-01-07T15:34:40+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://fedco-gtz.github.io/mascotasfelices.github.io/pages/english/contactenglish.html</loc>
+  <lastmod>2024-01-07T15:34:40+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://fedco-gtz.github.io/mascotasfelices.github.io/pages/english/requirementsenglish.html</loc>
+  <lastmod>2024-01-07T15:34:40+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://fedco-gtz.github.io/mascotasfelices.github.io/pages/english/donateenglish.html</loc>
+  <lastmod>2024-01-07T15:34:40+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
 
 </urlset>

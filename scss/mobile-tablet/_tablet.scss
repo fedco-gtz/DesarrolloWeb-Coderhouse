@@ -1,0 +1,176 @@
+@media screen and (min-width:769px) and (max-width: 868px) {
+	header {
+		h1 {
+			font-size: 24px;
+		}
+
+		p {
+			font-size: 18px;
+			color: $color_1;
+			margin-bottom: 10px;
+		}
+	}
+
+	.imagenEncabezado {
+		width: 50% !important;
+		height: 50% !important;
+	}
+
+	.column {
+		flex: 100%;
+	}
+
+	.navLinks {
+		display: none;
+	}
+
+	.navLinksMobile {
+		display: flex;
+		align-items: center;
+	}
+
+	.buttonMenuToggle {
+		display: block;
+		background-color: $background-color_10;
+		border: none;
+		border-radius: 50px;
+		padding: 0 24px;
+		font-family: $font-family_2;
+		font-weight: bold;
+		font-size: 20px;
+	}
+
+	.navLinks.navLinksResponsive {
+		position: absolute;
+		display: flex;
+		background-color: $background-color_11;
+		width: 100%;
+		height: 130%;
+		top: 100px;
+		left: 0;
+		flex-direction: column !important;
+		padding-top: 70px;
+		align-items: center;
+		gap: 70px;
+		font-size: 30px;
+	}
+
+	.gridContainer {
+		grid-template-columns: repeat(2, 1fr);
+		grid-gap: 25px;
+		grid-template-columns: 1fr;
+		grid-gap: 20px;
+	}
+
+	.message {
+		grid-column: 1;
+	}
+
+	.submit {
+		grid-column: 1;
+	}
+
+	.mapsDesktop {
+		display: none;
+	}
+
+	.mapsDesktopL {
+		display: none;
+	}
+
+	.mapsMobile {
+		display: none;
+	}
+
+	.mapsMiniMobile {
+		display: none;
+	}
+
+	.mapsTablet {
+		display: block;
+		width: 100%;
+		height: 80%;
+	}
+
+	#hiddenPopups {
+		padding: 15px;
+
+		.title {
+			width: 100%;
+			font-size: 22px;
+			font-style: bold;
+		}
+
+		ul {
+			font-size: 14px;
+
+			li {
+				img {
+					width: 200px;
+				}
+			}
+		}
+	}
+
+	.communication {
+
+		h4 {
+			margin-bottom: 2px;
+		}
+
+		ul {
+			.listMobile {
+				display: none;
+
+				.mobile {
+					display: none;
+				}
+			}
+
+			.listDesktop {
+				display: inline-block;
+
+				.desktop {
+					display: inline-block;
+					width: 20%;
+					height: 50%;
+					padding: 10px;
+				}
+			}
+		}
+	}
+
+	.cardContainerDonation {
+		.cardDonation {
+			flex: 0 0 calc(100% - 20px);
+
+			#totalDonaciones,
+			#ultimaDonacion {
+				font-size: 28px;
+			}
+		}
+	}
+
+	#btnDesktop {
+		display: none;
+	}
+
+	.btnPets {
+		display: flex;
+		text-align: center;
+        justify-content: center;
+
+		&:hover {
+			display: none;
+		}
+	}
+
+	.card {
+		img {
+			width: 100%;
+			height: 50%;
+			margin-bottom: 10px;
+			object-fit: cover;
+		}
+	}
+}

@@ -184,22 +184,22 @@ a {
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   padding: 20px;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
 }
 .petCard img {
   width: 100%;
   border-radius: 8px;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
 }
 .petCard h3 {
   font-size: 20px;
   color: #000000;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
 }
 .petCard p {
-  font-size: 16px;
+  font-size: 14px;
   color: #342521;
-  margin-bottom: 5px;
+  margin-bottom: -5px;
 }
 
 .card {
@@ -221,6 +221,7 @@ a {
   width: 100%;
   height: 60%;
   margin-bottom: 10px;
+  object-fit: cover;
 }
 .card h3 {
   font-size: 18px;
@@ -382,6 +383,10 @@ input[type=checkbox] {
   background-color: rgb(5, 121, 182);
 }
 
+#lineBreak {
+  margin-bottom: 20px !important;
+}
+
 header {
   background-image: url(../images/fondo.jpg);
   text-align: center;
@@ -483,6 +488,24 @@ footer {
   display: none;
 }
 
+.importantInformation {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+}
+.importantInformation .information,
+.importantInformation .separation {
+  display: inline;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  color: #000000;
+}
+.importantInformation .information a,
+.importantInformation .separation a {
+  color: #000000;
+}
+
 .about {
   background-color: #f5f5f5;
   padding: 40px;
@@ -582,8 +605,29 @@ footer {
   display: none;
 }
 
+.mapsDesktop {
+  display: block;
+  width: 100%;
+}
+
+.mapsDesktopL {
+  display: none;
+}
+
 .mapsMobile {
   display: none;
+}
+
+.mapsMiniMobile {
+  display: none;
+}
+
+.mapsTablet {
+  display: none;
+}
+
+.linkRequirements {
+  color: rgba(20, 20, 20, 0.95);
 }
 
 #donations {
@@ -591,7 +635,7 @@ footer {
   padding: 40px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 320px) and (max-width: 768px) {
   header h1 {
     font-size: 24px;
   }
@@ -653,8 +697,15 @@ footer {
   .mapsDesktop {
     display: none;
   }
+  .mapsTablet {
+    display: none;
+  }
   .mapsMobile {
     display: block;
+    width: 100%;
+  }
+  .mapsMiniMobile {
+    display: none;
   }
   #hiddenPopups {
     padding: 15px;
@@ -695,6 +746,261 @@ footer {
   .cardContainerDonation .cardDonation #totalDonaciones,
   .cardContainerDonation .cardDonation #ultimaDonacion {
     font-size: 28px;
+  }
+  .policyProtection {
+    font-size: 10px;
+  }
+  .importantInformation {
+    display: block;
+  }
+  .importantInformation .information {
+    display: block;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  .importantInformation .separation {
+    display: none;
+  }
+  #btnDesktop {
+    display: none;
+  }
+  .btnPets {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+  }
+  .btnPets:hover {
+    display: none;
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 375px) {
+  #timeDate,
+  #countdown {
+    font-size: 12px;
+  }
+  .mapsMiniMobile {
+    display: block;
+    width: 100%;
+  }
+  .mapsMobile {
+    display: none;
+  }
+  .mapsDesktop {
+    display: none;
+  }
+  .mapsDesktopL {
+    display: none;
+  }
+  .mapsTablet {
+    display: none;
+  }
+  .importantInformation .information {
+    font-size: 10px;
+  }
+  #btnDesktop {
+    display: none;
+  }
+  .btnPets {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+  }
+  .btnPets:hover {
+    display: none;
+  }
+  .card img {
+    width: 100%;
+    height: 50%;
+    margin-bottom: 2px;
+    object-fit: cover;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 868px) {
+  header h1 {
+    font-size: 24px;
+  }
+  header p {
+    font-size: 18px;
+    color: #ffffff;
+    margin-bottom: 10px;
+  }
+  .imagenEncabezado {
+    width: 50% !important;
+    height: 50% !important;
+  }
+  .column {
+    flex: 100%;
+  }
+  .navLinks {
+    display: none;
+  }
+  .navLinksMobile {
+    display: flex;
+    align-items: center;
+  }
+  .buttonMenuToggle {
+    display: block;
+    background-color: white;
+    border: none;
+    border-radius: 50px;
+    padding: 0 24px;
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 20px;
+  }
+  .navLinks.navLinksResponsive {
+    position: absolute;
+    display: flex;
+    background-color: rgba(20, 20, 20, 0.95);
+    width: 100%;
+    height: 130%;
+    top: 100px;
+    left: 0;
+    flex-direction: column !important;
+    padding-top: 70px;
+    align-items: center;
+    gap: 70px;
+    font-size: 30px;
+  }
+  .gridContainer {
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 25px;
+    grid-template-columns: 1fr;
+    grid-gap: 20px;
+  }
+  .message {
+    grid-column: 1;
+  }
+  .submit {
+    grid-column: 1;
+  }
+  .mapsDesktop {
+    display: none;
+  }
+  .mapsDesktopL {
+    display: none;
+  }
+  .mapsMobile {
+    display: none;
+  }
+  .mapsMiniMobile {
+    display: none;
+  }
+  .mapsTablet {
+    display: block;
+    width: 100%;
+    height: 80%;
+  }
+  #hiddenPopups {
+    padding: 15px;
+  }
+  #hiddenPopups .title {
+    width: 100%;
+    font-size: 22px;
+    font-style: bold;
+  }
+  #hiddenPopups ul {
+    font-size: 14px;
+  }
+  #hiddenPopups ul li img {
+    width: 200px;
+  }
+  .communication h4 {
+    margin-bottom: 2px;
+  }
+  .communication ul .listMobile {
+    display: none;
+  }
+  .communication ul .listMobile .mobile {
+    display: none;
+  }
+  .communication ul .listDesktop {
+    display: inline-block;
+  }
+  .communication ul .listDesktop .desktop {
+    display: inline-block;
+    width: 20%;
+    height: 50%;
+    padding: 10px;
+  }
+  .cardContainerDonation .cardDonation {
+    flex: 0 0 calc(100% - 20px);
+  }
+  .cardContainerDonation .cardDonation #totalDonaciones,
+  .cardContainerDonation .cardDonation #ultimaDonacion {
+    font-size: 28px;
+  }
+  #btnDesktop {
+    display: none;
+  }
+  .btnPets {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+  }
+  .btnPets:hover {
+    display: none;
+  }
+  .card img {
+    width: 100%;
+    height: 50%;
+    margin-bottom: 10px;
+    object-fit: cover;
+  }
+}
+@media screen and (min-width: 868px) and (max-width: 1250px) {
+  .mapsMiniMobile {
+    display: none;
+  }
+  .mapsMobile {
+    display: none;
+  }
+  .mapsDesktop {
+    display: none;
+  }
+  .mapsDesktopL {
+    display: block;
+    width: 70%;
+    height: 80%;
+  }
+  .mapsTablet {
+    display: none;
+  }
+}
+@media screen and (min-width: 700px) {
+  #petsDesktop {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+  }
+  #containerDesktop {
+    text-align: center;
+  }
+  .petCard img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+  }
+  .petCard h3 {
+    font-size: 1.2em;
+  }
+  .petCard p {
+    margin-bottom: 5px;
+  }
+  #btnDesktopResponsive {
+    display: none;
+  }
+  #btnDesktop {
+    display: block;
+    margin: 0 auto;
+    width: 60%;
+    text-align: center;
+    margin-top: -50px;
+  }
+}
+@media screen and (min-width: 843px) and (max-width: 1152px) {
+  .petCard p {
+    font-size: 15px;
   }
 }
 

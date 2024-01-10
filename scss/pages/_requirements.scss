@@ -19,6 +19,27 @@
     display: none;
 }
 
+.mapsDesktop {
+    display: block;
+    width: 100%;
+}
+
+.mapsDesktopL {
+    display: none;
+}
+
 .mapsMobile {
     display: none;
+}
+
+.mapsMiniMobile {
+    display: none;
+}
+
+.mapsTablet {
+    display: none;
+}
+
+.linkRequirements {
+    color: $background-color_11;
 }
