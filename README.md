@@ -82,17 +82,10 @@ Desde ya quiero agradecerte por su tiempo, estoy muy ansioso por escuchar tus co
 ______________________________________________________________________________________________________
 ### `ÚLTIMA ACTUALIZACIÓN DEL PROYECTO 09/01/2024`
 
-### `ENTREGA DE PRIMERA PRE-ENTREGA 06/11/2023` [DEVOLUCIÓN](https://drive.google.com/file/d/1gkHrOmR2YwNj-Pm0tNN90R_d2OYYutpp/view?usp=sharing) 
-### `ENTREGA DE SEGUNDA PRE-ENTREGA 11/12/2023` [DEVOLUCIÓN](https://drive.google.com/file/d/1LhmPhtc05uCIDeRM5E4hVoMh8QECAoY1/view?usp=sharing) 
-### `ENTREGA DE TERCERA PRE-ENTREGA 25/12/2023` [DEVOLUCIÓN](https://drive.google.com/file/d/1_1TkTKN9n8sd92WxKvXuY0anUpVW1i4-/view?usp=sharing)
-### `ENTREGA DE PROYECTO FINAL 09/01/2024` [DEVOLUCIÓN](https://drive.google.com/file/d/1PyjsQWEMe9nwX60q7x__f-am4GIsdskD/view?usp=sharing)
+### `ENTREGA DE PRIMERA PRE-ENTREGA 06/11/2023` [DEVOLUCIÓN](https://www.canva.com/design/DAGLUm504kU/unJQ7vysNkxrP8kfoAuPqQ/view?utm_content=DAGLUm504kU&utm_campaign=designshare&utm_medium=link&utm_source=editor) 
+### `ENTREGA DE SEGUNDA PRE-ENTREGA 11/12/2023` [DEVOLUCIÓN](https://www.canva.com/design/DAGLUwzWWZ0/SSs9LXrDOg-pvqCz7fnazg/view?utm_content=DAGLUwzWWZ0&utm_campaign=designshare&utm_medium=link&utm_source=editor) 
+### `ENTREGA DE TERCERA PRE-ENTREGA 25/12/2023` [DEVOLUCIÓN](https://www.canva.com/design/DAGLU8vsgQk/OWCwfolfqY3-GwgQ9D7dDg/view?utm_content=DAGLU8vsgQk&utm_campaign=designshare&utm_medium=link&utm_source=editor)
+### `ENTREGA DE PROYECTO FINAL 09/01/2024` [DEVOLUCIÓN](https://www.canva.com/design/DAGLU39_rTU/zAMTwb9fJtioib_jmwpjRg/view?utm_content=DAGLU39_rTU&utm_campaign=designshare&utm_medium=link&utm_source=editor)
 
 ______________________________________________________________________________________________________
-### CERTIFICADO
-![Coderhouse](./images/readme/Certificado.png)
-
-### CERTIFICATE
-![Coderhouse](./images/readme/Certificate.png)
-
-### CERTIFICADO
-![Coderhouse](./images/readme/CertificadoP.png)
+### CERTIFICADOS [CLICK ACÁ](https://www.canva.com/design/DAGLUzlJtz8/crTk7cmP379JXQAz_3gfkw/view?utm_content=DAGLUzlJtz8&utm_campaign=designshare&utm_medium=link&utm_source=editor)
